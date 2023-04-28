@@ -1,6 +1,7 @@
 # OER zu Geospatial Web Services (in Arbeit!)          
 
-Dieses Repository enthält alle Materialien, die zur Erstellung und Veröffentlichung einer Open Educational Resource (OER) zu Geospatial Web Services benötigt werden. Das OER-Modul bietet a) einige Hintergrundinformationen zu Geospatial Web Services und b) eine technische Anleitung zur Nutzung von Geospatial Web Services in einem Open Source Gis (QGIS) sowie einem Open Source Server (GeoServer). 
+Dieses Repository enthält alle Materialien, die zur Erstellung und Veröffentlichung einer Open Educational Resource (OER) zum 
+Thema Semantic Web und dem Linked Data notwendig sind. Das OER-Modul bietet a) ... und b) ...
 
 ### Inhalt:
 Das Modul ist wie folgt aufgebaut
@@ -11,7 +12,7 @@ Das Modul ist wie folgt aufgebaut
 4. Quiz
 5. Zusammenfassung 
 
-Dieses Tutorial ist hauptsächlich für Studenten gedacht, die etwa ... Minuten damit verbringen wollen, ihre Fähigkeiten bei der Integration von Daten aus Geosaptial Web Services zu verbessern. Du solltest einige Grundkenntnisse in GIS-Software haben und es wäre nicht schlecht, wenn du bereits einige Erfahrung mit der freien Open-Source-Software Geoserver haben.
+Dieses Tutorial ist hauptsächlich für Studenten gedacht, die etwa ... Minuten damit verbringen wollen, ihre Fähigkeiten bei der Integration von Daten aus Geosaptial Web Services zu verbessern.
 
 ### Wie wird das OER-Modul verwendet?
 
