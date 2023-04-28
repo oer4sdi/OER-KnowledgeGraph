@@ -1,6 +1,6 @@
 # OER on Geospatial Web Services (Work in Progress!)          
 
-This repository contains all the materials used to create and publish an Open Educational Resource (OER) on Geospatial Web Services. The OER module provides a) some background information on Geospatial Web Services and b) technical guidance on how to use Geospatial Web Services within an Open Source Gis (QGIS), as well as an Open Source Server (GeoServer). 
+This repository contains all the materials used to create and publish an Open Educational Resource (OER) on Semantic Web and Linked Data concepts. The OER module provides a) ... b) ...
 
 ### Content:
 The module is structured as follows
@@ -11,7 +11,7 @@ The module is structured as follows
 4. Quiz
 5. Wrap up 
 
-This tutorial is mainly designed for students who want to spend about ... minutes on improving their skills in integrating Data from Geosaptial Web Services. You should have some basic knowledge of GIS Software and it wouldn't be bad if you already have some experience in using the free open source Software Geoserver.
+This tutorial is mainly designed for students who want to spend about ... minutes on improving their skills in integrating Data from Geosaptial Web Services.
 
 ### How to use the OER Module
 
@@ -24,7 +24,7 @@ Simply download just the H5P file, upload it to one of the environments and use 
 
 ###Quick Overview of the Content
 
-If you first want to get a quick overview of the concrete contents of the H5P module, you will find a script structured according to the H5P module with integrated illustrations in the [Storyboard](/StoryBoard_Deutsch.md). 
+If you first want to get a quick overview of the concrete contents of the H5P module, you will find a script structured according to the H5P module with integrated illustrations in the [Storyboard](/StoryBoard.md). 
 
 ### Copyright and License Statement
 
