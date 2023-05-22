@@ -1,4 +1,4 @@
-# OER on Geospatial Web Services (Work in Progress!)          
+# OER on Knowledge Graphs (Work in Progress!)          
 
 This repository contains all the materials used to create and publish an Open Educational Resource (OER) on Semantic Web and Linked Data concepts. The OER module provides a) ... b) ...
 
