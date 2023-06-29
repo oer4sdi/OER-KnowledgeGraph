@@ -1,0 +1,104 @@
+Hallo und herzlich willkommen zu diesem Screencast zum Thema Ontologien. In diesem Video werden wir das Tool WebVOWL kennenlernen, mit dem wir Ontologien direkt in unserem Browser visualisieren und erstellen können. Wir werden uns zunächst beispielhafte Graphen genauer ansehen und die verschiedenen Strukturen der Ontologien erforschen. Anschließend werden wir eine eigene Ontologie zu einem spezifischen Thema erstellen. 
+
+Öffne bitte nun über den mitgelieferten Link oder über eine Suchmaschine die Anwendung WebVOWl in deinem Standardbrowser, um die Übung aktiv mitklicken zu können. 
+
+Ontologien sind strukturierte Modelle, die Konzepte, Eigenschaften und Beziehungen innerhalb einer bestimmten Domäne repräsentieren. Sie ermöglichen ein gemeinsames Verständnis von Informationen und dienen als Grundlage für die semantische Interoperabilität. Ontologien helfen dabei, komplexe Daten zu organisieren, zu verknüpfen und zu verstehen.
+
+WebVOWL ist ein benutzerfreundliches Online-Tool, das uns dabei unterstützt, OWL-Ontologien zu visualisieren und interaktiv zu erkunden. Es ermöglicht uns, komplexe Zusammenhänge und Strukturen in einer Ontologie anschaulich darzustellen. 
+
+Wenn wir WebVOWL öffnen, werden uns zunächst zwei Fenster angezeigt. 
+
+Im Hauptfenster wird eine Visualisierung eines interaktiven Graphens dargestellt der eine OWL-Ontologie repräsentiert. Wir können ein- und auszoomen, können einzelne Elemente des Graphens auswählen und diese frei auf der Oberfläche bewegen. 
+
+Im rechten Fenster befindet sich eine Infobox. In dieser Infobox ist unteranderem der Titel der dargestellten Ontologie, sowie eine Kurzbeschreibung hinterlegt. Zusätzlich tauchen hier Infos zu Metadaten oder Statistiken auf. 
+
+Interessant wird die Infobox vor allem, sobald ein Element aus dem Graphen ausgewählt wird. Dann erscheinen unter dem Menüpunkt „Selection Details“ detaillierte Informationen, die sich auf das jeweilige Element beziehen. 
+
+Im unteren Bereich der Seite befindet sich eine Leiste mit verschiedenen Menüpunkten:
+
+Über die Suchleiste können Elemente des Graphen über ihre Bezeichnung gesucht werden. 
+
+Unter „Ontology“ finden wir zum einen beispielhafte Ontologien, an denen wir uns orientieren können. Darüber hinaus können hier aber auch weitere Ontologien eingeladen oder neu erstellt werden. 
+
+Über den Menüpunkt „Export“ können die erstellten Ontologien in verschiedenen Formaten abgespeichert oder als URL zur Verfügung gestellt werden. 
+
+Der Menüpunkt „Filter“ ermöglicht es einzelne Inhalte in der Visualisierung zu verstecken, sodass die Übersichtlichkeit gesteigert wird und der Betrachter sich auf das wesentliche konzentrieren kann. 
+
+Ebenfalls der übersichtlichen Visualisierung zugute kommt der Menüpunkt „Options“ mit einigen Einstellungsmöglichkeiten zu Zoomstufen, Labelgrößen oder Distanzen zwischen den Knoten. 
+
+Über den Punkt „Modes“ lässt sich der Bearbeitungsmodus auf „Edit“ umstellen. Dies ermöglicht erst das Hinzufügen oder Abändern von Graphelementen. 
+
+Sobald der Bearbeitungsmodus eingeschaltet ist, wird der Punkt „Create new Ontology“ unter dem übergeordneten Menüpunkt „Ontology“ nutzbar. Außerdem erscheint ein neues Fenster auf der linken Seite der Oberfläche. 
+Auf die dort gelisteten Default Elements gehen wir später näher ein. 
+
+Nun solltest du bereits einen guten Überblick über die Oberfläche des Tools haben. 
+
+Schauen wir uns also gemeinsam einen der Beispielgraphen an, um die verschiedenen Elemente und Strukturen zu verstehen. Wir Öffnen unter „Ontology“ das Beispiel „Personas Ontology“. 
+
+Das PersonasOnto zeigt den Bereich der Personas zusammen mit dem zugehörigen Konzept und den Eigenschaften. Dabei wird eine Persona als ein Benutzerarchetyp betrachtet, der dazu verwendet werden kann, "Entscheidungen über Produktmerkmale, Navigation, Interaktionen und sogar visuelles Design zu treffen". Diese Ontologie soll einige der Fragen im Zusammenhang mit dieser Methodik klären, z. B. wie Personas mit anderen Informationen in Einklang gebracht werden und wer für ihre Interpretation und Validierung verantwortlich ist.
+
+Es werden Klassen wie "Person", "Persona Type" und "Organization" dargestellt. Die Beziehungen zwischen diesen Klassen werden durch Eigenschaften wie "isMemberOf" oder "hasPersonaType" beschrieben. 
+
+Wir finden hier also die klassische Triplet Struktur mit Subjekt - Prädikat - Objekt wieder. 
+OWL ermöglicht es uns aber auch weitere Elemente und Beziehungsarten zu definieren. 
+
+Diese Möglichkeiten schauen wir uns nun an, während wir eine eigene Ontologie erstellen. 
+
+Unser übergeordnetes Thema wird "Tourismus" sein. Wir werden uns auf einige grundlegende Klassen konzentrieren, wie zum Beispiel "Land", "Stadt" und "Sehenswürdigkeit". 
+
+Dazu setzen wir zunächst ein Häkchen bei „Modes“ -> „Editing“ und navigieren dann über „Ontology“ -> „Create new Ontology“ um einen neuen Graphen anzulegen. 
+
+Im rechten Fenster können wir einen Titel für unsere Ontologie festlegen und wählen hier passend „Tourismus“. 
+Zusätzlich können wir eine kurze Beschreibung eintippen. Beispielsweise: „Diese Ontologie beschreibt das Konzept Tourismus. 
+
+Auf der linken Seite finden wir die „Default Elements“ „Class“, „Property“ und „Datatype“ aus denen wir unseren Graphen Zusammensetzen können. 
+
+Kurz zur Übersicht: 
+"OWL:thing" ist ein grundlegendes Konzept in OWL und repräsentiert alle möglichen Instanzen oder Entitäten in einer Ontologie. Es stellt den obersten Punkt in der Klassenhierarchie dar und umfasst alles, was in der Ontologie existieren kann.
+
+"OWL:class" ist ein Konzept in OWL, das eine Klasse in einer Ontologie darstellt. Klassen dienen dazu, Konzepte, Objekte oder Entitäten innerhalb einer Domäne zu repräsentieren. Sie definieren gemeinsame Merkmale, Eigenschaften und Beziehungen für Instanzen dieser Klasse.
+
+"Deprecated class" ist eine Markierung in OWL, die anzeigt, dass eine Klasse als veraltet oder als nicht mehr empfohlen gilt. Sie wird verwendet, um darauf hinzuweisen, dass eine Klasse nicht mehr aktiv verwendet werden sollte oder durch eine andere Klasse ersetzt wurde.
+
+"Object property" ist eine Eigenschaft in OWL, die Beziehungen zwischen Objekten in einer Ontologie beschreibt. Sie definiert, dass die Werte der Eigenschaft andere benannte Individuen oder Klassen sind, im Gegensatz zu Datentypen.
+
+"Subclass of" ist eine Beziehung in OWL, die angibt, dass eine Klasse eine Subklasse, also Unterklasse einer anderen Klasse ist. Eine Subklasse erbt die Eigenschaften und Beziehungen der Oberklasse und spezifiziert gleichzeitig zusätzliche Merkmale, die für sie gelten.
+
+"DisjointWith" ist eine Beziehung in OWL, die angibt, dass zwei Klassen keine gemeinsamen Instanzen haben und sich gegenseitig ausschließen. Es wird ausgeschlossen, dass es eine Überlappung oder Gemeinsamkeiten zwischen den Klassen gibt.
+
+"AllValuesFrom" ist eine Einschränkung in OWL, die besagt, dass alle Werte, die mit einer Eigenschaft assoziiert sind, einer bestimmten Klasse angehören müssen. Es wird festgelegt, dass nur Instanzen dieser Klasse als Werte für diese Eigenschaft erlaubt sind.
+
+"SomeValuesFrom" ist eine Einschränkung in OWL, die besagt, dass mindestens ein Wert, der mit einer Eigenschaft assoziiert ist, einer bestimmten Klasse angehören muss. Es ist nicht erforderlich, dass alle Werte der Eigenschaft dieser Klasse angehören, es muss nur mindestens ein Wert dieser Klasse vorhanden sein.
+
+Unter „Datatype“ finden wir klassische Datentypen wie String, Integer oder Double mit deren Hilfe definiert werden kann in welcher Form die jeweiligen Klassen vorliegen können. 
+
+
+Wir legen als erstes die drei Klassen „Land“, „Stadt“ und „Sehenswürdigkeit“ an. Hierzu wählen wir im linken Fenster owl:class aus und fügen diese über Doppelklick auf unser Arbeitsfenster hinzu. 
+
+Wir erstellen insgesamt drei Klassen. Falls wir diese wieder löschen wollen, können wir dies über das Rote X tun, welches erscheint, wenn wir über ein Element hovern. 
+
+Klicken wir eine Klasse an, dann können wir diese genauer definieren. Wir vergeben also zunächst passende Bezeichnungen. „Land“, „Stadt“, und „Sehenswürdigkeit“. 
+
+Über das grüne X können wir Klassen Datentypen zuordnen, die wir in der linken Spalte auswählen können. Bei der Klasse „Land“ beispielsweise „String“, da wir wissen, dass diese textlich und nicht numerisch erfasst werden. 
+
+Das Hinzufügen von Datentypen ist optional, kann aber einen informativen Mehrwert generieren. 
+
+Nun ist es an der Zeit, eine erste Beziehung zwischen den erstellten Klassen zu definieren. Wir möchten festlegen, dass eine Stadt eine Subklasse von einem Land ist. Dazu wählen wir „subClassOf“ aus und ziehen mit Hilfe des angedeuteten Pfeils eine Verbindung von der Klasse „Stadt“ zu „Land“. Die beiden Klassen werden nun über eine gestrichelte Linie Verbunden, die die Beziehung der beiden beschreibt. 
+
+Als nächstes erstellen wir drei Klassen, die Länder repräsentieren. Ich wähle hier „Deutschland“, „Italien“ und „England“. Diese Klassen verbinden wir ebenfalls alle als Subklasse mit der Klasse „Land“. 
+
+Außerdem erstellen wir drei Klassen, die die Hauptstädte der gewählten Länder darstellen. Also „Berlin“, „Rom“ und „London“. Diese werden zunächst als Subklassen mit der Klasse „Stadt“ verbunden. Wir können aber nicht nur sagen, dass Berlin eine Stadt ist, sondern wollen ebenfalls festlegen, dass Berlin die Hauptstadt von Deutschland ist. 
+
+Hierzu wählen wir nun ein „objectProperty“ aus, um die Beziehungen zwischen den Ländern und deren Hauptstädten zu erstellen. Dafür ziehen wir wieder mit Hilfe des Pfeils eine Verbindung ausgehend vom jeweiligen Land hin zur passenden Hauptstadt. Ein Durchgezogener Pfeil erscheint mit einem Textfeld. In diesem Textfeld können wir nun die Art der Beziehung definieren. In unserem Beispiel schreiben wir also „hatHauptstadt“. 
+
+Als kleine Übung möchte ich dich nun bitten das Video kurz zu stoppen und für jede Hauptstadt drei Sehenswürdigkeiten als Klassen anzulegen. Setze diese anschließend logisch mit deinen anderen Klassen in Beziehung.
+
+Kurz zum Vergleich. Ich habe beispielsweise die Klasse „Big Ben“ angelegt. „Big Ben“ ist eine Subklasse von Sehenswürdigkeit und steht mit der Klasse „London“ in der Beziehung „hatSehenswürdigkeit“.
+
+In diesem Tutorial haben wir das Tool WebVOWL kennengelernt, mit dem wir Ontologien anschaulich visualisieren und erkunden können. Wir haben uns beispielhafte Graphen angesehen, die uns geholfen haben, die verschiedenen Strukturen einer Ontologie besser zu verstehen. 
+
+Anschließend haben wir gemeinsam eine eigene Ontologie zum Thema Tourismus erstellt. Wir haben Klassen wie "Land", "Stadt" und "Sehenswürdigkeit" definiert und ihre Eigenschaften festgelegt. Darüber hinaus haben wir Beziehungen zwischen den Konzepten erstellt, um die Verbindungen zwischen Ländern, Städten und Sehenswürdigkeiten darzustellen.
+
+Ich hoffe, dass dieses Tutorial dir dabei geholfen hat, einen Einblick in die Welt der Ontologien zu gewinnen und die Funktionalitäten von WebVOWL zu verstehen. Nutze dieses Wissen, um eigene Ontologien zu erstellen und zu erkunden. Viel Spaß beim Experimentieren. 
+
+
