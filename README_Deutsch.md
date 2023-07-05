@@ -1,7 +1,6 @@
 # OER zu Knowledge Graphen (in Arbeit!)          
 
-Dieses Repository enthält alle Materialien, die zur Erstellung und Veröffentlichung einer Open Educational Resource (OER) zum 
-Thema Semantic Web und dem Linked Data notwendig sind. Das OER-Modul bietet a) ... und b) ...
+Dieses Repository enthält alle Materialien, die zur Erstellung und Veröffentlichung einer Open Educational Resource (OER) zum Thema Semantic Web und dem Linked Data notwendig sind. Das OER-Modul bietet a) einige Hintergrundinformationen zu den Konzepten des Semantischen Web mit Anwendungsbeispielen aus der Praxis und b) eine technische Anleitung zur Erstellung von Ontologien und Abfrage-Mechaniken. 
 
 ### Inhalt:
 Das Modul ist wie folgt aufgebaut
@@ -12,7 +11,7 @@ Das Modul ist wie folgt aufgebaut
 4. Quiz
 5. Zusammenfassung 
 
-Dieses Tutorial ist hauptsächlich für Studenten gedacht, die etwa ... Minuten damit verbringen wollen, ihre Fähigkeiten bei der Integration von Daten aus Geosaptial Web Services zu verbessern.
+Dieses Tutorial ist hauptsächlich für Studenten gedacht, die etwa 30 Minuten damit verbringen wollen, ihr Wissen zu semantischer Wissensmodellierung zu vertiefen.
 
 ### Wie wird das OER-Modul verwendet?
 
@@ -48,6 +47,6 @@ SOFTWARE.
 
 ### Autoren und Finanzierung
 
-Dieses OER-Modul wurde am Institut für Geodäsie der Fachhochschule Bochum in enger Zusammenarbeit mit der Universität Münster und der Hochschule Bochum entwickelt. Hauptautor ist Fabian Przybylak unter der Leitung von Prof. Dr. Carsten Keßler.
+Dieses OER-Modul wurde am Institut für Geodäsie der Fachhochschule Bochum in enger Zusammenarbeit mit der Universität Münster und der Hochschule Bochum entwickelt. Hauptautor ist Fabian Przybylak unter der Leitung von Prof. Dr. Carsten Keßler und in Zusammenarbeit mit Lucas Rudnik.
 
 Das Projekt OER4SDI wurde von der Digitalen Hochschule NRW empfohlen und wird durch das Ministerium für Kultur und Wissenschaft NRW gefördert.
