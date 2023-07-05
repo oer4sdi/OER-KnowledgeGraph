@@ -1,52 +1,52 @@
-# OER on Knowledge Graphs (Work in Progress!)          
+# OER zu Knowledge Graphen (in Arbeit!)          
 
-This repository contains all the materials used to create and publish an Open Educational Resource (OER) on Semantic Web and Linked Data concepts. The OER module provides a) ... b) ...
+Dieses Repository enthält alle Materialien, die zur Erstellung und Veröffentlichung einer Open Educational Resource (OER) zum Thema Semantic Web und dem Linked Data notwendig sind. Das OER-Modul bietet a) einige Hintergrundinformationen zu den Konzepten des Semantischen Web mit Anwendungsbeispielen aus der Praxis und b) eine technische Anleitung zur Erstellung von Ontologien und Abfrage-Mechaniken. 
 
-### Content:
-The module is structured as follows
+### Inhalt:
+Das Modul ist wie folgt aufgebaut
 
-1. Overview
-2. Thematic Background 
-3. Excercices and Guides
+1. Überblick
+2. Thematischer Hintergrund 
+3. Übungen und Leitfäden
 4. Quiz
-5. Wrap up 
+5. Zusammenfassung 
 
-This tutorial is mainly designed for students who want to spend about ... minutes on improving their skills in integrating Data from Geosaptial Web Services.
+Dieses Tutorial ist hauptsächlich für Studenten gedacht, die etwa 30 Minuten damit verbringen wollen, ihr Wissen zu semantischer Wissensmodellierung zu vertiefen.
 
-### How to use the OER Module
+### Wie wird das OER-Modul verwendet?
 
-The OER is implemented as an  [H5P](https://h5p.org/) module that can be downloaded and embedded into any H5P runtime environment, such as: 
-- Learning management systems based on Moodle or Ilias 
-- H5P editing environments such as the [H5P Official Editor](https://h5p.org/) or the lightweight [LUMI H5P editor](https://lumi.education/)
-- Content managament systems such as [Wordpress](https://wordpress.com/) with "H5P" plugin installed
+Das OER ist als [H5P](https://h5p.org/)-Modul implementiert, das heruntergeladen und in jede H5P-Laufzeitumgebung eingebettet werden kann, wie z.B.: 
+- Lernmanagementsysteme auf Basis von Moodle oder Ilias 
+- H5P-Bearbeitungsumgebungen wie der [H5P Official Editor](https://h5p.org/) oder der leichtgewichtige [LUMI H5P Editor](https://lumi.education/)
+- Inhaltsverwaltungssysteme wie [Wordpress](https://wordpress.com/) mit installiertem "H5P"-Plugin
 
-Simply download just the H5P file, upload it to one of the environments and use it from there...
+Lade dir einfach nur die H5P-Datei herunter, lade sie in eine der Umgebungen hoch und verwende sie von dort aus.
 
-###Quick Overview of the Content
+###Schneller Überblick über den Inhalt
 
-If you first want to get a quick overview of the concrete contents of the H5P module, you will find a script structured according to the H5P module with integrated illustrations in the [Storyboard](/StoryBoard.md). 
+Wenn du dir zunächst einen schnellen Überblick über die konkreten Inhalte des H5P-Moduls verschaffen willst, findest du im [Storyboard](/StoryBoard_Deutsch.md) ein nach dem H5P-Modul strukturiertes Skript mit integrierten Illustrationen. 
 
-### Copyright and License Statement
+### Copyright und Lizenzerklärung
 
 Copyright (c) 2022 [...](...)
 
-a) You are free to use, alter and reproduce the tutorial (H5P content) under the terms of the [CC-BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/legalcode). 
+a) Es steht dir frei, das Tutorial (H5P-Inhalte) unter den Bedingungen der [CC-BY-SA 4.0 Lizenz](https://creativecommons.org/licenses/by-sa/4.0/legalcode) zu verwenden, zu verändern und zu vervielfältigen. 
 
-b) Any source code contained or delivered with the OER modoule can be used under the terms of the MIT license:
+b) Jeglicher Quellcode, der im OER-Modell enthalten ist oder mitgeliefert wird, kann unter den Bedingungen der MIT-Lizenz verwendet werden:
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Hiermit wird jeder Person, die eine Kopie dieser Software und der zugehörigen Dokumentationsdateien (die "Software") erwirbt, kostenlos die Erlaubnis erteilt, uneingeschränkt mit der Software zu handeln, einschließlich und ohne Einschränkung der Rechte, Kopien der Software zu verwenden, zu kopieren, zu modifizieren, zusammenzuführen, zu veröffentlichen, zu vertreiben, unterzulizenzieren und/oder zu verkaufen
+Kopien der Software zu verwenden, zu modifizieren, zusammenzuführen, zu veröffentlichen, zu vertreiben, zu unterlizenzieren und/oder zu verkaufen, und Personen, denen die Software zur Verfügung gestellt wird, zu gestatten, dies zu tun, vorbehaltlich der folgenden Bedingungen:
 
-* The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+* Der obige Copyright-Hinweis und dieser Genehmigungshinweis müssen in allen Kopien oder wesentlichen Teilen der Software enthalten sein.
+Kopien oder wesentlichen Teilen der Software enthalten sein.
 
-* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+* DIE SOFTWARE WIRD OHNE MÄNGELGEWÄHR BEREITGESTELLT, OHNE JEGLICHE AUSDRÜCKLICHE ODER STILLSCHWEIGENDE GARANTIE, EINSCHLIESSLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIE DER MARKTGÄNGIGKEIT,
+EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTVERLETZUNG VON RECHTEN DRITTER. IN KEINEM FALL SIND DIE AUTOREN ODER URHEBERRECHTSINHABER HAFTBAR FÜR JEGLICHE ANSPRÜCHE, SCHÄDEN ODER ANDERE
+SCHÄDEN ODER SONSTIGE HAFTUNG, OB AUS VERTRAG, UNERLAUBTER HANDLUNG ODER ANDERWEITIG, DIE SICH AUS DER SOFTWARE ODER DER NUTZUNG DER SOFTWARE ODER DEM SONSTIGEN UMGANG MIT DER
 SOFTWARE. 
 
-### Authors and funding
+### Autoren und Finanzierung
 
-This OER Module has been developed at the Institute of Geodesy, Bochum University of Applied Sciences in close cooperation with the University of Münster and the University of Bochum. Main author is Fabian Przybylak under the direction of Prof. Dr. Carsten Keßler.
+Dieses OER-Modul wurde am Institut für Geodäsie der Fachhochschule Bochum in enger Zusammenarbeit mit der Universität Münster und der Hochschule Bochum entwickelt. Hauptautor ist Fabian Przybylak unter der Leitung von Prof. Dr. Carsten Keßler und in Zusammenarbeit mit Lucas Rudnik.
 
-The OER4SDI project has been recommended by the Digital University NRW and is funded by the Ministry of Culture and Science NRW.
+Das Projekt OER4SDI wurde von der Digitalen Hochschule NRW empfohlen und wird durch das Ministerium für Kultur und Wissenschaft NRW gefördert.
