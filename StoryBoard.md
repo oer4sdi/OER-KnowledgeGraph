@@ -130,10 +130,10 @@ Ein Beispiel für eine Geosparql-Abfrage könnte wie folgt aussehen:
 
 *"PREFIX geo: <http://www.opengis.net/ont/geosparql#>*<br>
 *SELECT ?name WHERE {*<br>
-*  ?place geo:hasGeometry ?geometry.*<br>
-*  ?geometry geo:asWKT ?wkt.*<br>
-*  FILTER(geo:sfWithin(?wkt, 'POLYGON((-122.5 37.5, -122.5 38.5, -121.5 38.5, -121.5 37.5, -122.5 37.5))')).*<br>
-*  ?place foaf:name ?name.*<br>
+*?place geo:hasGeometry ?geometry.*<br>
+*?geometry geo:asWKT ?wkt.*<br>
+*FILTER(geo:sfWithin(?wkt, 'POLYGON((-122.5 37.5, -122.5 38.5, -121.5 38.5, -121.5 37.5, -122.5 37.5))')).*<br>
+*?place foaf:name ?name.*<br>
 *}"*
 
 Diese Abfrage sucht nach Orten im RDF-Graph, deren Geometrie innerhalb eines bestimmten geografischen Bereichs liegt. Es verwendet die Geosparql-Präfixe und die Funktion "geo:sfWithin", um die räumliche Beziehung zu überprüfen. Die Ergebnisse der Abfrage sind die Namen der entsprechenden Orte.
