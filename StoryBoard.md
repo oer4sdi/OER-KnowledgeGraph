@@ -94,10 +94,49 @@ Das RDF-Modell besteht aus drei grundlegenden Komponenten: Ressourcen, Eigenscha
 
 RDF-Daten werden in Tripeln ausgedrückt, die aus einem Subjekt, einem Prädikat und einem Objekt bestehen. Das Subjekt ist die Ressource, auf die sich das Tripel bezieht, das Prädikat beschreibt die Beziehung zwischen dem Subjekt und dem Objekt, und das Objekt ist der Wert, der die Beziehung beschreibt. Die Tripel werden auch als "Sätze" oder "Statements" bezeichnet.
 
-Ein Beispiel für ein RDF-Tripel könnte lauten:*"Tim" besitzt das Attribut " hat Alter" mit dem Wert "30". In diesem Fall ist "Tim" das Subjekt, "hat Alter" das Prädikat und "30" das Objekt.*
+Ein Beispiel für ein RDF-Tripel könnte lauten: *"Tim" besitzt das Attribut " hat Alter" mit dem Wert "30". In diesem Fall ist "Tim" das Subjekt, "hat Alter" das Prädikat und "30" das Objekt.*
 
 RDF ermöglicht es, komplexe Beziehungen zwischen Ressourcen im Web auszudrücken und zu verknüpfen, wodurch das Web zu einem globalen Wissensraum wird.
 ![](Single_Learning_Element/Img/RDF/RDF.png)
+**Kurz erklärt: Web Ontology Language (OWL)**
+
+OWL ist eine formale Sprache des Semantic Webs, die verwendet wird, um komplexe Ontologien zu definieren, also hierarchische und semantische Strukturen, die Wissen und Beziehungen zwischen Konzepten repräsentieren. Außerdem definiert OWL diese Beziehungen in einer maschinenlesbaren Form, die von Computerprogrammen verarbeitet werden kann.
+
+OWL ist eine logische Sprache und basiert auf Beschreibungslogiken wie der Description Logic (DL). Diese Logik stellt verschiedene Konstruktoren zur Verfügung, um Ontologien zu modellieren, wie Klassen, Eigenschaften, Individuen, Einschränkungen, Abhängigkeiten, etc.
+
+*Beispielsweise könnte eine Ontologie in OWL eine Hierarchie von Klassen definieren, z.B. "Tier" als übergeordnete Klasse von "Säugetier", "Vogel" und "Reptil". Darüber hinaus können Eigenschaften definiert werden, wie z.B. "hat Gewicht" oder "isst". Einschränkungen können auch definiert werden, um Beziehungen zwischen Klassen oder Eigenschaften zu beschreiben.*
+
+OWL wird von vielen Werkzeugen und Frameworks unterstützt, um semantische Anwendungen zu entwickeln und Wissen zu integrieren und abzufragen. Es ist eine wichtige Sprache im Bereich des Semantic Web und wird zur Modellierung von Ontologien und zur Entwicklung von semantischen Anwendungen in vielen Bereichen der Erdsystemwissenschaften, des Wissensmanagement, des E-Commerce und des E-Learning eingesetzt.
+
+**Kurz erklärt: SPARQL Protocol And RDF Query Language.**
+
+Mit SPARQL können komplexe Abfragen auf RDF-Daten ausgeführt werden, um Informationen zu extrahieren, Beziehungen zwischen Ressourcen zu analysieren und komplexe Muster innerhalb der Daten zu identifizieren.
+
+SPARQL verwendet eine Syntax, die an SQL erinnert, aber speziell für die Abfrage von RDF-Daten angepasst wurde. Die Abfragen bestehen aus verschiedenen Klauseln, wie z.B. SELECT, WHERE, OPTIONAL, FILTER, GROUP BY und ORDER BY. Diese Klauseln ermöglichen es, bestimmte Ressourcen oder Beziehungen innerhalb der Daten zu identifizieren und miteinander zu verknüpfen.
+
+Zum Beispiel könnte eine SPARQL-Abfrage lauten: *"SELECT ?name WHERE {?person rdf:type foaf:Person. ?person foaf:name ?name. FILTER regex(?name, 'John', 'i')}"*
+
+Diese Abfrage würde alle Namen von Personen im RDF-Graph zurückgeben, deren Name das Wort "John" enthält.
+
+SPARQL wird häufig verwendet, um Daten aus Linked Data-Quellen abzufragen und zu integrieren. Es wird von vielen Semantic-Web-Tools und Semantic-Web-Frameworks unterstützt und kann ebenfalls verwendet werden, um komplexe Anwendungen und Dienste zu entwickeln, die auf semantischen Daten basieren.
+
+**Kurz erklärt: GEOSPARQL**
+
+GEOSPARQL ist eine Erweiterung der SPARQL-Abfragesprache, die entwickelt wurde, um die Abfrage und Verarbeitung von geografischen Informationen auf Grundlage von RDF-Daten zu ermöglichen. Konkret können mit GEOSPARQL komplexe räumliche Abfragen auf RDF-Daten um geografische Informationen zu extrahieren und räumliche Beziehungen zwischen den Ressourcen zu analysieren. Es ermöglicht die Darstellung und Abfrage von Punkten, Linien, Polygonen und anderen geometrischen Objekten.
+
+Die Syntax von GEOSPARQL ähnelt der von SPARQL, enthält jedoch spezifische geografische Funktionen und Operationen.  Sie bietet eine Reihe von Operatoren, wie z.B. Intersect, Within, Contains, Distance usw., die verwendet werden, um räumliche Beziehungen zwischen Geometrien zu überprüfen.
+
+Ein Beispiel für eine Geosparql-Abfrage könnte wie folgt aussehen:
+
+*"PREFIX geo: <http://www.opengis.net/ont/geosparql#>*<br>
+*SELECT ?name WHERE {*<br>
+*  ?place geo:hasGeometry ?geometry.*<br>
+*  ?geometry geo:asWKT ?wkt.*<br>
+*  FILTER(geo:sfWithin(?wkt, 'POLYGON((-122.5 37.5, -122.5 38.5, -121.5 38.5, -121.5 37.5, -122.5 37.5))')).*<br>
+*  ?place foaf:name ?name.*<br>
+*}"*
+
+Diese Abfrage sucht nach Orten im RDF-Graph, deren Geometrie innerhalb eines bestimmten geografischen Bereichs liegt. Es verwendet die Geosparql-Präfixe und die Funktion "geo:sfWithin", um die räumliche Beziehung zu überprüfen. Die Ergebnisse der Abfrage sind die Namen der entsprechenden Orte.
 
 
 
