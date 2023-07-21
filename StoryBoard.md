@@ -97,7 +97,7 @@ RDF-Daten werden in Tripeln ausgedrückt, die aus einem Subjekt, einem Prädikat
 Ein Beispiel für ein RDF-Tripel könnte lauten:*"Tim" besitzt das Attribut " hat Alter" mit dem Wert "30". In diesem Fall ist "Tim" das Subjekt, "hat Alter" das Prädikat und "30" das Objekt.*
 
 RDF ermöglicht es, komplexe Beziehungen zwischen Ressourcen im Web auszudrücken und zu verknüpfen, wodurch das Web zu einem globalen Wissensraum wird.
-
+![](Single_Learning_Element/Img/RDF/RDF.png)
 
 
 
