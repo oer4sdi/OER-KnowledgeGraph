@@ -80,5 +80,24 @@ URIs bestehen aus zwei Hauptkomponenten: dem Schema und dem spezifischen Identif
 Es gibt verschiedene Arten von URIs. Die bekannteste Form ist die Uniform Resource Locator (URL), die normalerweise verwendet wird, um Webseiten zu adressieren.<br>
 *Eine URL enthält das Schema (z. B. "http://"), gefolgt von der Domain (z. B. "www.example.com") und dem Pfad zur spezifischen Ressource (z. B. "/pfad/zur/datei.html").*
 
+Ein weiterer Typ ist der Uniform Resource Name (URN), der dazu dient, Ressourcen unabhängig von ihrem aktuellen Speicherort dauerhaft und eindeutig zu identifizieren. URNs können verwendet werden, um zum Beispiel auf bibliografische Informationen, Dokumente oder andere digitale Objekte zu verweisen.
+
+URIs spielen eine zentrale Rolle im Web, da sie die Grundlage für das Adressieren und Verlinken von Ressourcen bilden. Durch die Verwendung von URIs können Benutzer und Maschinen auf die gewünschten Ressourcen zugreifen, sei es durch das Eingeben der URI in einen Webbrowser oder durch das Klicken auf Hyperlinks, die auf URIs verweisen.
+
+Es ist wichtig anzumerken, dass URLs und URNs eng miteinander verwandt sind und beide als Untergruppe von URIs betrachtet werden können. URLs dienen jedoch hauptsächlich dazu, Ressourcen zu lokalisieren, während URNs auf ihre Identität abzielen.
+
+**Kurz erklärt: Resource Desciption Framework**
+
+RDF (Resource Description Framework) ist ein Datenmodell des Semantic Web, das verwendet wird, um strukturierte Informationen über Ressourcen im Web zu beschreiben und zu verlinken.
+
+Das RDF-Modell besteht aus drei grundlegenden Komponenten: Ressourcen, Eigenschaften und Werten. Eine Ressource wird durch eine URI (Uniform Resource Identifier) identifiziert und repräsentiert eine Entität im Web wie z.B. eine Person, ein Ort oder ein Dokument. Eine Eigenschaft (auch Prädikat genannt) beschreibt eine Beziehung zwischen zwei Ressourcen und wird ebenfalls durch eine URI identifiziert. Ein Wert gibt an, welcher Wert die Eigenschaft für die Ressource hat, die sie beschreibt.
+
+RDF-Daten werden in Tripeln ausgedrückt, die aus einem Subjekt, einem Prädikat und einem Objekt bestehen. Das Subjekt ist die Ressource, auf die sich das Tripel bezieht, das Prädikat beschreibt die Beziehung zwischen dem Subjekt und dem Objekt, und das Objekt ist der Wert, der die Beziehung beschreibt. Die Tripel werden auch als "Sätze" oder "Statements" bezeichnet.
+
+Ein Beispiel für ein RDF-Tripel könnte lauten:*"Tim" besitzt das Attribut " hat Alter" mit dem Wert "30". In diesem Fall ist "Tim" das Subjekt, "hat Alter" das Prädikat und "30" das Objekt.*
+
+RDF ermöglicht es, komplexe Beziehungen zwischen Ressourcen im Web auszudrücken und zu verknüpfen, wodurch das Web zu einem globalen Wissensraum wird.
+
+
 
 
