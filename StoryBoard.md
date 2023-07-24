@@ -231,29 +231,29 @@ Folge dem Screencast und nutze die vorgestellten Ressourcen gerne um weitere Abf
 
 **Fragen**
 
-Wer ist der Erfinder des World Wide Web und Semantic Web?
+* Wer ist der Erfinder des World Wide Web und Semantic Web?
 
-Ordne den Jahreszahlen ihre Entwicklungen zu
+* Ordne den Jahreszahlen ihre Entwicklungen zu
 
-Für wen soll das Semantic Web Informationen im Internet verständlicher machen?
+* Für wen soll das Semantic Web Informationen im Internet verständlicher machen?
 
-Beim Linked Data Konzept muss der Benutzer den genauen Speicherort der Daten kennen!
+* Beim Linked Data Konzept muss der Benutzer den genauen Speicherort der Daten kennen!
 
-Beim Knowledge Graphen Konzept wird das Resource Description Framework(RDF) als Datenmodel genutzt!
+* Beim Knowledge Graphen Konzept wird das Resource Description Framework(RDF) als Datenmodel genutzt!
 
-Knowledge Graph kann Informationen aus Quellen wie APIs, unstrukturierten Texten, stukturierten Datenbanken und verschiedenen Webseiten zusammenführen!
+* Knowledge Graph kann Informationen aus Quellen wie APIs, unstrukturierten Texten, stukturierten Datenbanken und verschiedenen Webseiten zusammenführen!
 
-Ziehe die Wörter in die richtigen Felder!
+* Ziehe die Wörter in die richtigen Felder!
 
-Welche drei Komponenten gibt es im RDF-Model?
+* Welche drei Komponenten gibt es im RDF-Model?
 
-Web Ontology Language (OWL) wird verwendet, um komplexe Ontologien zu definieren, also hierarchische und semantische Strukturen, die Wissen und Beziehungen zwischen Konzepten repräsentieren!
+* Web Ontology Language (OWL) wird verwendet, um komplexe Ontologien zu definieren, also hierarchische und semantische Strukturen, die Wissen und Beziehungen zwischen Konzepten repräsentieren!
 
-GEOSPARQL ermöglicht die Abfrage auf RDF-Daten von was?
+* GEOSPARQL ermöglicht die Abfrage auf RDF-Daten von was?
 
-Welche Rolle spielt Wikidata in der Wissensvernetzung im Web?
+* Welche Rolle spielt Wikidata in der Wissensvernetzung im Web?
 
-Von welcher Organisation ist INSPIRE?
+* Von welcher Organisation ist INSPIRE?
 
 ## 5. Zusammenfassung
 
