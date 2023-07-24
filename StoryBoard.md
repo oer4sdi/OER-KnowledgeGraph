@@ -178,6 +178,26 @@ INSPIRE unterstützt semantische Abfragen und Analysen von geografischen Daten. 
 
 Durch die Anwendung semantischer Technologien und Strukturen fördert INSPIRE die Harmonisierung, Integration und effiziente Nutzung von geografischen Informationen auf europäischer Ebene. Diese semantischen Ansätze tragen dazu bei, die Interoperabilität von geografischen Daten zu verbessern und ermöglichen eine umfassendere Nutzung der Informationen für verschiedene Anwendungen und Entscheidungsprozesse.
 
+### 2.5 Inhaltliche Vertiefung - Die Vision auf dem Prüfstand
+
+**Die Vision eines Semantic Webs auf dem Prüfstand - Wie weit sind wir denn eigentlich?**
+
+Die Vision des Semantischen Web wurde bereits vor mehr als 20 Jahren von Tim Berners-Lee, dem Erfinder des World Wide Web, vorgestellt. Seitdem wurden viele Fortschritte gemacht, aber die vollständige Realisierung der Vision ist noch immer nicht erreicht worden.
+
+Einige Fortschritte und Technologien, die zum Semantischen Web beitragen, sind bereits vorhanden. Dazu gehören das Resource Description Framework (RDF), die Web Ontology Language (OWL) und SPARQL als Abfragesprache für das Semantische Web. Diese Technologien ermöglichen es, Informationen im Web semantisch anzureichern und miteinander zu verknüpfen.
+
+Es gibt auch verschiedene Anwendungen und Initiativen, die das Semantische Web nutzen. Beispielsweise werden semantische Technologien in Bereichen wie der medizinischen Forschung, der digitalen Bibliothekswissenschaft, dem E-Commerce und der Wissensmanagement-Systeme eingesetzt.
+
+Einige spezifische Beispiele für semantische Anwendungen sind semantische Suchmaschinen, die eine genauere und kontextbezogene Suche ermöglichen, semantisch angereicherte Inhalte, die maschinenlesbar sind und automatische Datenintegration ermöglichen, und intelligente Assistenten, die natürliche Sprache verstehen und relevante Informationen liefern können.
+
+Allerdings gibt es auch Herausforderungen und Hindernisse, die einer breiteren Umsetzung des Semantischen Webs im Wege stehen. Ein zentrales Problem besteht darin, dass die semantische Anreicherung von Informationen auf Webseiten noch nicht weit verbreitet ist. Viele Webseiten enthalten nach wie vor unstrukturierten Text, der von Maschinen schwer interpretiert werden kann.
+
+Darüber hinaus besteht die Herausforderung, große Mengen an Daten aus verschiedenen Quellen zu integrieren und zu harmonisieren. Das Semantische Web erfordert eine einheitliche Modellierung von Daten und eine Konsensbildung über die Bedeutung von Begriffen und Beziehungen.
+
+Ein weiteres Hindernis ist die Akzeptanz und Adaption der semantischen Technologien. Viele Entwickler und Organisationen sind mit den herkömmlichen Webtechnologien vertraut und möglicherweise nicht ausreichend geschult oder motiviert, auf semantische Ansätze umzusteigen.
+
+Insgesamt lässt sich sagen, dass das Semantische Web trotz der Fortschritte noch nicht in vollem Umfang verwirklicht ist. Es bleibt eine Herausforderung, die Vision des Semantischen Webs umfassend umzusetzen und eine breite Akzeptanz sowohl bei Entwicklern als auch bei Nutzern zu erreichen. Dennoch gibt es weiterhin Bemühungen und Entwicklungen in diese Richtung, sodass das Potenzial des Semantischen Webs auch weiterhin erforscht und genutzt wird.
+
 ## 3. Übungen und Leitfäden
 
 **Aufbau der Übungen und Leitfäden**
@@ -209,7 +229,7 @@ Folge dem Screencast und nutze die vorgestellten Ressourcen gerne um weitere Abf
 
 ## 4. Quiz
 
-** Fragen**
+**Fragen**
 
 Wer ist der Erfinder des World Wide Web und Semantic Web?
 
