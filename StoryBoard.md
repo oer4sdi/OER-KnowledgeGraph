@@ -128,8 +128,8 @@ Die Syntax von GEOSPARQL ähnelt der von SPARQL, enthält jedoch spezifische geo
 
 Ein Beispiel für eine Geosparql-Abfrage könnte wie folgt aussehen:
 
-*"PREFIX geo: <http://www.opengis.net/ont/geosparql#>*<br>
-*SELECT ?name WHERE {*<br>
+>*"PREFIX geo: <http://www.opengis.net/ont/geosparql#>*<br>
+>*SELECT ?name WHERE {*<br>
 >*?place geo:hasGeometry ?geometry.*<br>
 >*?geometry geo:asWKT ?wkt.*<br>
 >*FILTER(geo:sfWithin(?wkt, 'POLYGON((-122.5 37.5, -122.5 38.5, -121.5 38.5, -121.5 37.5, -122.5 37.5))')).*<br>
@@ -137,6 +137,28 @@ Ein Beispiel für eine Geosparql-Abfrage könnte wie folgt aussehen:
 *}"*
 
 Diese Abfrage sucht nach Orten im RDF-Graph, deren Geometrie innerhalb eines bestimmten geografischen Bereichs liegt. Es verwendet die Geosparql-Präfixe und die Funktion "geo:sfWithin", um die räumliche Beziehung zu überprüfen. Die Ergebnisse der Abfrage sind die Namen der entsprechenden Orte.
+
+### 2.4 Inhaltliche Vertiefung - Beispiele aus der Praxis
+
+**Kurz vorgestellt: WikiData**
+
+Wikidata ist eine kollaborative, offene Wissensdatenbank, die von der Wikimedia Foundation entwickelt wurde. Sie wurde im Jahr 2012 gestartet und hat das Ziel, strukturierte Daten zu erfassen und bereitzustellen, die von allen genutzt werden können. Wikidata ist eine zentrale Wissensquelle, die von verschiedenen Wikimedia-Projekten wie Wikipedia, Wikimedia Commons und anderen genutzt wird.
+
+Wikidata besteht aus einer Vielzahl von Einträgen, die Informationen über verschiedene Konzepte, Entitäten und Objekte enthalten. Jeder Eintrag in Wikidata repräsentiert eine spezifische Entität, wie zum Beispiel eine Person, einen Ort, ein Kunstwerk oder ein wissenschaftliches Konzept. Diese Entitäten werden mit eindeutigen Identifikatoren, den sogenannten Wikidata-IDs, gekennzeichnet.
+
+Die Daten in Wikidata sind strukturiert und basieren auf semantischen Wissensmodellen. Das bedeutet, dass die Informationen in einer standardisierten Form vorliegen und Beziehungen zwischen den Entitäten durch verlinkte Daten hergestellt werden. Wikidata verwendet das RDF-Datenmodell und ermöglicht die Verknüpfung von Einträgen mit anderen Wissensquellen und externen Datenbanken.
+
+Benutzer können Informationen zu Einträgen hinzufügen, bearbeiten und aktualisieren. Dadurch entsteht eine kollaborative Umgebung, in der das Wissen kontinuierlich erweitert und verbessert wird. Durch die Nutzung von IDs wird es ermöglicht, mehrsprachige Informationen zu speichern und über eine eigene API wird der externe Zugriff auf die Daten ermöglicht.
+
+Durch die Nutzung von Wikidata können Anwendungen und Dienste auf eine große Anzahl von strukturierten Daten zugreifen und diese für ihre Zwecke verwenden. Das Projekt trägt zur Förderung des offenen Wissensaustauschs und der Vernetzung von Informationen bei.
+
+**Kurz vorgestellt: Semantische Technologien im Kontext von INSPIRE**
+
+INSPIRE (Infrastructure for Spatial Information in the European Community) ist eine Initiative der Europäischen Union, die darauf abzielt, eine harmonisierte Infrastruktur für räumliche Informationen zu schaffen und den Austausch von geografischen Daten und Informationen in Europa zu erleichtern. INSPIRE verwendet die folgenden semantischen Technologien und Strukturen, um die Interoperabilität und den Austausch von geografischen Informationen zu erleichtern:
+
+**1. Ontologien und Schemata:**INSPIRE definiert ontologische Modelle und Schemata, die eine einheitliche und konsistente Modellierung von geografischen Daten ermöglichen. Diese ontologischen Modelle beschreiben die Bedeutung und Beziehungen von Konzepten in verschiedenen Themenbereichen, wie z.B. Gewässer, Geologie oder Landnutzung. Durch die Verwendung gemeinsamer ontologischer Modelle wird eine einheitliche Interpretation und Integration von geografischen Daten über verschiedene Quellen hinweg ermöglicht.
+
+*Ein konkretes Beispiel ist die INSPIRE-Themenschicht "Schutzgebiete". Hier wird eine Ontologie entwickelt, die die verschiedenen Arten von Schutzgebieten, wie Naturschutzgebiete, Natura 2000-Gebiete oder Vogelschutzgebiete, sowie deren hierarchische Beziehungen und Eigenschaften beschreibt. Durch die Anwendung dieser ontologischen Modelle können die Schutzgebietsdaten verschiedener Länder oder Organisationen interoperabel und einheitlich interpretiert werden.*
 
 
 
