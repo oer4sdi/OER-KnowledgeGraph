@@ -178,5 +178,78 @@ INSPIRE unterstützt semantische Abfragen und Analysen von geografischen Daten. 
 
 Durch die Anwendung semantischer Technologien und Strukturen fördert INSPIRE die Harmonisierung, Integration und effiziente Nutzung von geografischen Informationen auf europäischer Ebene. Diese semantischen Ansätze tragen dazu bei, die Interoperabilität von geografischen Daten zu verbessern und ermöglichen eine umfassendere Nutzung der Informationen für verschiedene Anwendungen und Entscheidungsprozesse.
 
+## 3. Übungen und Leitfäden
+
+**Aufbau der Übungen und Leitfäden**
+* Aufgabenstellung 
+* Videoguide (Screencast)
+
+### 3.1 Übung 1
+
+**Aufgabenstellung**
+
+In dieser Übung beschäftigen wir uns mit Hilfe des Webtools "WebVOWL" mit dem Thema Ontologien. Wir werden zunächst beispielhafte Graphen sichten und im Anschluss selbst eine simple Ontologie zu einem ausgewählten Thema erstellen. 
+
+Folge dem Screencast und erstelle nach dem gleichen Prinzip eine oder auch mehere Ontologien zu Themenbereichen die dich besonders interessieren. 
+
+**Skript zum Videoguide**
 
 
+
+### 3.2 Übung 2
+
+**Aufgabenstellung**
+
+In dieser Übung beschäftigen wir uns damit SPARQL-Abfragen in der semantischen Datenbank WikiData anzuwenden. Wir schauen uns die Struktur einiger beispielhaften Abfragen und deren Ergebnisse in der Wikidata-Query an. Anschließend erstellen wir mithilfe des Query-Builders Eine eigene einfache Abfrage.
+
+Folge dem Screencast und nutze die vorgestellten Ressourcen gerne um weitere Abfragen zu erstellen und durchzuführen.
+
+**Skript zum Videoguide**
+
+
+## 4. Quiz
+
+** Fragen**
+
+Wer ist der Erfinder des World Wide Web und Semantic Web?
+
+Ordne den Jahreszahlen ihre Entwicklungen zu
+
+Für wen soll das Semantic Web Informationen im Internet verständlicher machen?
+
+Beim Linked Data Konzept muss der Benutzer den genauen Speicherort der Daten kennen!
+
+Beim Knowledge Graphen Konzept wird das Resource Description Framework(RDF) als Datenmodel genutzt!
+
+Knowledge Graph kann Informationen aus Quellen wie APIs, unstrukturierten Texten, stukturierten Datenbanken und verschiedenen Webseiten zusammenführen!
+
+Ziehe die Wörter in die richtigen Felder!
+
+Welche drei Komponenten gibt es im RDF-Model?
+
+Web Ontology Language (OWL) wird verwendet, um komplexe Ontologien zu definieren, also hierarchische und semantische Strukturen, die Wissen und Beziehungen zwischen Konzepten repräsentieren!
+
+GEOSPARQL ermöglicht die Abfrage auf RDF-Daten von was?
+
+Welche Rolle spielt Wikidata in der Wissensvernetzung im Web?
+
+Von welcher Organisation ist INSPIRE?
+
+## 5. Zusammenfassung
+
+Hey das hast du gut gemacht! Wir hoffen, dass du nun eine Vorstellung davon hast, was Knowledge Graphen, das Semantic Web und Linked Data sind und wie diese Wissensmodellierungen im Kontext von Geodateninfrastrukturen eingesetzt werden können.
+
+**Interessiert daran, mehr zu lernen?**
+
+Im Internet findest du eine Fülle von Lern-Ressourcen zum Thema der Wissensmodellierung in Form von Knowledge Graphen, dem Semantic Web und Linked Data. Hier sind einige Empfehlungen:
+
+* ["The semantic web" paper by Berners-Lee et al. (2001)](https://www-sop.inria.fr/acacia/cours/essi2006/Scientific%20American_%20Feature%20Article_%20The%20Semantic%20Web_%20May%202001.pdf)
+* [Tim Berners-Lee's TED Talk on Linked Data](https://www.youtube.com/watch?v=OM6XIICm_qo)
+* [EO4GEO: Ontologies development reuse and patterns](https://bok.eo4geo.eu/WB2-3)
+* [Wikidata Introduction: How does Wikidata work?](https://www.wikidata.org/wiki/Wikidata:Introduction)
+* Harvey, F., et al. "Semantic interoperability: A central issue for sharing geographic information." The annals of regional science 33.2 (1999): 213-232.
+* Kuhn, W. "Geospatial semantics: why, of what, and how?." Journal on data semantics III. Springer, Berlin, Heidelberg, 2005. 1-24.
+
+**Dein Feedback ist willkommen!**
+
+Wenn du Unzulänglichkeiten in diesem OER-Modul festgestellt oder Ideen zur Verbesserung des OER-Materials hast, bist du herzlich dazu eingeladen Einträge in die Problemliste im [GitHub-Repositorium](https://github.com/oer4sdi) dieses OER hinzuzufügen.
