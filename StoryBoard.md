@@ -78,7 +78,7 @@ Uniform Resource Identifier (URI) sind Zeichenketten, die verwendet werden, um R
 URIs bestehen aus zwei Hauptkomponenten: dem Schema und dem spezifischen Identifikator. Das Schema gibt an, wie der Identifikator zu interpretieren ist, und kann beispielsweise "http://" für eine Webseite oder "file://" für eine lokale Datei sein. Der spezifische Identifikator ist der Teil, der die genaue Adresse oder den Pfad zur Ressource angibt.
 
 Es gibt verschiedene Arten von URIs. Die bekannteste Form ist die Uniform Resource Locator (URL), die normalerweise verwendet wird, um Webseiten zu adressieren.<br>
-<span style="color:grey">*Eine URL enthält das Schema (z. B. "http://"), gefolgt von der Domain (z. B. "www.example.com") und dem Pfad zur spezifischen Ressource (z. B. "/pfad/zur/datei.html").*</span>
+<span style="color:red">*Eine URL enthält das Schema (z. B. "http://"), gefolgt von der Domain (z. B. "www.example.com") und dem Pfad zur spezifischen Ressource (z. B. "/pfad/zur/datei.html").*</span>
 
 Ein weiterer Typ ist der Uniform Resource Name (URN), der dazu dient, Ressourcen unabhängig von ihrem aktuellen Speicherort dauerhaft und eindeutig zu identifizieren. URNs können verwendet werden, um zum Beispiel auf bibliografische Informationen, Dokumente oder andere digitale Objekte zu verweisen.
 
@@ -130,11 +130,11 @@ Ein Beispiel für eine Geosparql-Abfrage könnte wie folgt aussehen:
 
 >*"PREFIX geo: <http://www.opengis.net/ont/geosparql#>*<br>
 >*SELECT ?name WHERE {*<br>
->>*?place geo:hasGeometry ?geometry.*<br>
->>*?geometry geo:asWKT ?wkt.*<br>
->>*FILTER(geo:sfWithin(?wkt, 'POLYGON((-122.5 37.5, -122.5 38.5, -121.5 38.5, -121.5 37.5, -122.5 37.5))')).*<br>
->>*?place foaf:name ?name.*<br>
-*}"*
+>> *?place geo:hasGeometry ?geometry.*<br>
+>> *?geometry geo:asWKT ?wkt.*<br>
+>> *FILTER(geo:sfWithin(?wkt, 'POLYGON((-122.5 37.5, -122.5 38.5, -121.5 38.5, -121.5 37.5, -122.5 37.5))')).*<br>
+>> *?place foaf:name ?name.*<br>
+>*}"*
 
 Diese Abfrage sucht nach Orten im RDF-Graph, deren Geometrie innerhalb eines bestimmten geografischen Bereichs liegt. Es verwendet die Geosparql-Präfixe und die Funktion "geo:sfWithin", um die räumliche Beziehung zu überprüfen. Die Ergebnisse der Abfrage sind die Namen der entsprechenden Orte.
 
