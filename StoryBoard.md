@@ -214,6 +214,50 @@ Folge dem Screencast und erstelle nach dem gleichen Prinzip eine oder auch meher
 
 **Skript zum Videoguide**
 
+**WebVOWL** ist ein benutzerfreundliches Online-Tool, das uns hilft, OWL Ontologien zu visualisieren und interaktiv zu erforschen. Es ermöglicht uns komplexe Zusammenhänge und Strukturen in einer Ontologie anschaulich darzustellen.
+
+Wenn wir WebVOWL öffnen, sehen wir zunächst zwei Fenster. Im Hauptfenster sehen wir eine Visualisierung eines interaktiven Graphen, der eine OWL Ontologie darstellt. Es ist möglich zu zoomen, einzelne Elemente des Graphen auszuwählen und sich frei auf der Oberfläche zu bewegen. Im rechten Fenster befindet sich eine Infobox, in dieser Infobox ist unter anderem der Titel der dargestellten Ontologie, sowie eine Kurzbeschreibung zu finden. Zusätzlich erscheinen hier Informationen zu Metadaten oder Statistiken. Sobald ein Element in der Grafik ausgewählt wird, erscheinen unter dem Menüpunkt „Selection Details“ detaillierte Informationen zu diesem Element.
+
+Im unteren Bereich der Seite befindet sich eine Leiste mit verschiedenen Menüpunkten:
+
+Über die Suchleiste können Elemente des Graphen über ihre Beziehungen gesucht werden.
+
+Unter „Ontology“ finden sich beispielhafte Ontologien zur Orientierung, es können aber auch weitere Ontologien geladen oder neu erstellt werden.
+
+Über den Menüpunkt „Export“ können die erstellten Ontologien in verschiedenen Formaten gespeichert oder als URL zur Verfügung gestellt werden.
+
+Der Menüpunkt „Filter“ ermöglicht es, einzelne Inhalte in der Visualisierung auszublenden, um die Übersichtlichkeit zu erhöhen und sich auf das Wesentliche konzentrieren zu können.
+
+Der Menüpunkt „Optionen“ mit einigen Einstellungsmöglichkeiten zu Zoomstufen, Beschriftungsgrößen oder Abständen zwischen den Knoten trägt ebenfalls zur Übersichtlichkeit der Visualisierung bei.
+
+Über den Punkt „Modes“ kann der Bearbeitungsmodus auf Edit umgeschaltet werden, der das Hinzufügen oder Ändern von Graphelementen erst ermöglicht.
+
+Sobald der Bearbeitungsmodus eingeschaltet ist, wird unter dem übergeordneten Menüpunkt „Ontology“ der Punkt „Create New Ontology“ nutzbar. Damit kann eine eigene Ontologie erstellt werden.
+
+Im rechten Fenster können wir einen Titel für unsere Ontologie festlegen und da unsere selbst erstellte Ontologie den Tourismus in verschiedenen Ländern behandeln soll, wählen wir den Titel „Tourismus“. Auf der linken Seite finden wir die Default Elements „Class“, „Property“ und „Datatype“, aus denen wir unseren Graphen zusammensetzen können.
+
+Kurze Übersicht Default Elements:
+
+*Kurze Übersicht Default Elements:
+„OWL:Thing“ ist ein grundlegendes Konzept in OWL und repräsentiert alle möglichen Instanzen Entitäten in einer Ontologie. Es stellt den obersten Punkt in der Klassenhierarchie dar und umfasst alles was in der Ontologie existieren kann.
+*„OWL:Class“ ist ein Konzept in OWL, das eine Klasse in der Ontologie repräsentiert. Klassen werden verwendet, um Konzepte, Objekte oder Entitäten innerhalb einer Domäne zu repräsentieren.
+*„OWL:DeprecatedClass“ ist eine Markierung in OWL, die angibt, dass eine Klasse veraltet ist oder nicht mehr empfohlen wird. 
+*„OWL:ObjectProperty“ ist eine Eigenschaft in OWL, die Beziehungen zwischen Objekten in einer Ontologie beschreibt. Sie definiert, dass die Werte der Eigenschaften andere bekannte Individuen oder Klassen sind.
+*„OWL:SubClassOf“ ist eine Beziehung in OWL, die angibt, dass eine Klasse eine Unterklasse einer anderen Klasse ist.
+*„OWL:DisjointWith“ ist eine Beziehung in OWL, die angibt, dass zwei Klassen keine gemeinsamen Instanzen haben und sich gegenseitig ausschließen.
+*„OWL:AllValuesFrom“ ist eine Einschränkung in OWL, die besagt, dass alle Werte, die mit einer Eigenschaft assoziiert sind, zu einer bestimmten Klasse gehören müssen.
+*„OWL:SomeValuesFrom“ ist eine Einschränkung in OWL, die besagt, dass mindestens einer der mit einer Eigenschaft assoziierten Werte zu einer bestimmten Klasse gehören muss.
+*Unter „Datatype“ finden wir klassische Datentypen wie String, Integer oder Double, mit denen definiert werden kann, in welcher Form die jeweiligen Klassen vorliegen können. 
+
+In unserer Ontologie fügen wir als erstes die drei Klassen Stadt, Land und Sehenswürdigkeiten hinzu, dazu klicken wir auf OWL:Class und mit einem Doppelklick werden die Klassen hinzugefügt. Falls zu viele Klassen hinzugefügt wurden, können diese einfach über das rote X wieder gelöscht werden. Durch Anklicken der Klassen können diese benannt werden. Über das grüne X können wir den Klassen Datentypen zuordnen, die wir in der linken Spalte auswählen.
+
+Als nächstes definieren wir erste Beziehungen zwischen den erstellten Klassen. Wir definieren, dass eine Stadt eine Unterklasse eines Landes ist. Dazu wählen wir „OWL:SubClassOf“ und ziehen mit dem angezeigten Pfeil eine Verbindung von der Klasse Stadt zu Land.
+
+Als nächstes erstellen wir drei Klassen, die die Länder repräsentieren, in unserem Beispiel Deutschland, Italien und England. Diese Klassen verbinden wir alle als Unterklassen mit der Klasse Land. Außerdem erstellen wir drei Klassen, die die Hauptstädte der ausgewählten Länder repräsentieren. Diese werden dann zunächst als Unterklassen mit der Klasse Stadt verbunden. 
+
+Da Berlin aber nicht nur eine Stadt, sondern auch die Hauptstadt von Deutschland ist, können wir eine „ObjektProperty“ verwenden, um die Verbindung zwischen dem Land und der Hauptstadt herzustellen. Dazu erstellen wir eine Verbindung vom Land zur jeweiligen Hauptstadt und beschreiben diese Verbindung als Hauptstadt.
+
+Diese Schritte müssen nun für die Sehenswürdigkeiten der Städte wiederholt werden. Diese können nun selbst erstellt werden.
 
 
 ### 3.2 Übung 2
