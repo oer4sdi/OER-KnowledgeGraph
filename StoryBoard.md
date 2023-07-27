@@ -238,8 +238,9 @@ Im rechten Fenster können wir einen Titel für unsere Ontologie festlegen und d
 
 Kurze Übersicht Default Elements:
 
-*Kurze Übersicht Default Elements:
-„OWL:Thing“ ist ein grundlegendes Konzept in OWL und repräsentiert alle möglichen Instanzen Entitäten in einer Ontologie. Es stellt den obersten Punkt in der Klassenhierarchie dar und umfasst alles was in der Ontologie existieren kann.
+Kurze Übersicht Default Elements:
+
+* „OWL:Thing“ ist ein grundlegendes Konzept in OWL und repräsentiert alle möglichen Instanzen Entitäten in einer Ontologie. Es stellt den obersten Punkt in der Klassenhierarchie dar und umfasst alles was in der Ontologie existieren kann.
 * „OWL:Class“ ist ein Konzept in OWL, das eine Klasse in der Ontologie repräsentiert. Klassen werden verwendet, um Konzepte, Objekte oder Entitäten innerhalb einer Domäne zu repräsentieren.
 * „OWL:DeprecatedClass“ ist eine Markierung in OWL, die angibt, dass eine Klasse veraltet ist oder nicht mehr empfohlen wird. 
 * „OWL:ObjectProperty“ ist eine Eigenschaft in OWL, die Beziehungen zwischen Objekten in einer Ontologie beschreibt. Sie definiert, dass die Werte der Eigenschaften andere bekannte Individuen oder Klassen sind.
