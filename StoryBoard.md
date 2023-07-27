@@ -240,14 +240,14 @@ Kurze Übersicht Default Elements:
 
 *Kurze Übersicht Default Elements:
 „OWL:Thing“ ist ein grundlegendes Konzept in OWL und repräsentiert alle möglichen Instanzen Entitäten in einer Ontologie. Es stellt den obersten Punkt in der Klassenhierarchie dar und umfasst alles was in der Ontologie existieren kann.
-*„OWL:Class“ ist ein Konzept in OWL, das eine Klasse in der Ontologie repräsentiert. Klassen werden verwendet, um Konzepte, Objekte oder Entitäten innerhalb einer Domäne zu repräsentieren.
-*„OWL:DeprecatedClass“ ist eine Markierung in OWL, die angibt, dass eine Klasse veraltet ist oder nicht mehr empfohlen wird. 
-*„OWL:ObjectProperty“ ist eine Eigenschaft in OWL, die Beziehungen zwischen Objekten in einer Ontologie beschreibt. Sie definiert, dass die Werte der Eigenschaften andere bekannte Individuen oder Klassen sind.
-*„OWL:SubClassOf“ ist eine Beziehung in OWL, die angibt, dass eine Klasse eine Unterklasse einer anderen Klasse ist.
-*„OWL:DisjointWith“ ist eine Beziehung in OWL, die angibt, dass zwei Klassen keine gemeinsamen Instanzen haben und sich gegenseitig ausschließen.
-*„OWL:AllValuesFrom“ ist eine Einschränkung in OWL, die besagt, dass alle Werte, die mit einer Eigenschaft assoziiert sind, zu einer bestimmten Klasse gehören müssen.
-*„OWL:SomeValuesFrom“ ist eine Einschränkung in OWL, die besagt, dass mindestens einer der mit einer Eigenschaft assoziierten Werte zu einer bestimmten Klasse gehören muss.
-*Unter „Datatype“ finden wir klassische Datentypen wie String, Integer oder Double, mit denen definiert werden kann, in welcher Form die jeweiligen Klassen vorliegen können. 
+* „OWL:Class“ ist ein Konzept in OWL, das eine Klasse in der Ontologie repräsentiert. Klassen werden verwendet, um Konzepte, Objekte oder Entitäten innerhalb einer Domäne zu repräsentieren.
+* „OWL:DeprecatedClass“ ist eine Markierung in OWL, die angibt, dass eine Klasse veraltet ist oder nicht mehr empfohlen wird. 
+* „OWL:ObjectProperty“ ist eine Eigenschaft in OWL, die Beziehungen zwischen Objekten in einer Ontologie beschreibt. Sie definiert, dass die Werte der Eigenschaften andere bekannte Individuen oder Klassen sind.
+* „OWL:SubClassOf“ ist eine Beziehung in OWL, die angibt, dass eine Klasse eine Unterklasse einer anderen Klasse ist.
+* „OWL:DisjointWith“ ist eine Beziehung in OWL, die angibt, dass zwei Klassen keine gemeinsamen Instanzen haben und sich gegenseitig ausschließen.
+* „OWL:AllValuesFrom“ ist eine Einschränkung in OWL, die besagt, dass alle Werte, die mit einer Eigenschaft assoziiert sind, zu einer bestimmten Klasse gehören müssen.
+* „OWL:SomeValuesFrom“ ist eine Einschränkung in OWL, die besagt, dass mindestens einer der mit einer Eigenschaft assoziierten Werte zu einer bestimmten Klasse gehören muss.
+* Unter „Datatype“ finden wir klassische Datentypen wie String, Integer oder Double, mit denen definiert werden kann, in welcher Form die jeweiligen Klassen vorliegen können. 
 
 In unserer Ontologie fügen wir als erstes die drei Klassen Stadt, Land und Sehenswürdigkeiten hinzu, dazu klicken wir auf OWL:Class und mit einem Doppelklick werden die Klassen hinzugefügt. Falls zu viele Klassen hinzugefügt wurden, können diese einfach über das rote X wieder gelöscht werden. Durch Anklicken der Klassen können diese benannt werden. Über das grüne X können wir den Klassen Datentypen zuordnen, die wir in der linken Spalte auswählen.
 
