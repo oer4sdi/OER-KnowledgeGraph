@@ -220,23 +220,16 @@ Wenn wir WebVOWL öffnen, sehen wir zunächst zwei Fenster. Im Hauptfenster sehe
 
 Im unteren Bereich der Seite befindet sich eine Leiste mit verschiedenen Menüpunkten:
 
-Über die Suchleiste können Elemente des Graphen über ihre Beziehungen gesucht werden.
-
-Unter „Ontology“ finden sich beispielhafte Ontologien zur Orientierung, es können aber auch weitere Ontologien geladen oder neu erstellt werden.
-
-Über den Menüpunkt „Export“ können die erstellten Ontologien in verschiedenen Formaten gespeichert oder als URL zur Verfügung gestellt werden.
-
-Der Menüpunkt „Filter“ ermöglicht es, einzelne Inhalte in der Visualisierung auszublenden, um die Übersichtlichkeit zu erhöhen und sich auf das Wesentliche konzentrieren zu können.
-
-Der Menüpunkt „Optionen“ mit einigen Einstellungsmöglichkeiten zu Zoomstufen, Beschriftungsgrößen oder Abständen zwischen den Knoten trägt ebenfalls zur Übersichtlichkeit der Visualisierung bei.
-
-Über den Punkt „Modes“ kann der Bearbeitungsmodus auf Edit umgeschaltet werden, der das Hinzufügen oder Ändern von Graphelementen erst ermöglicht.
+* Über die Suchleiste können Elemente des Graphen über ihre Beziehungen gesucht werden.
+* Unter „Ontology“ finden sich beispielhafte Ontologien zur Orientierung, es können aber auch weitere Ontologien geladen oder neu erstellt werden.
+* Über den Menüpunkt „Export“ können die erstellten Ontologien in verschiedenen Formaten gespeichert oder als URL zur Verfügung gestellt werden.
+* Der Menüpunkt „Filter“ ermöglicht es, einzelne Inhalte in der Visualisierung auszublenden, um die Übersichtlichkeit zu erhöhen und sich auf das Wesentliche konzentrieren zu können.
+* Der Menüpunkt „Optionen“ mit einigen Einstellungsmöglichkeiten zu Zoomstufen, Beschriftungsgrößen oder Abständen zwischen den Knoten trägt ebenfalls zur Übersichtlichkeit der Visualisierung bei.
+* Über den Punkt „Modes“ kann der Bearbeitungsmodus auf Edit umgeschaltet werden, der das Hinzufügen oder Ändern von Graphelementen erst ermöglicht.
 
 Sobald der Bearbeitungsmodus eingeschaltet ist, wird unter dem übergeordneten Menüpunkt „Ontology“ der Punkt „Create New Ontology“ nutzbar. Damit kann eine eigene Ontologie erstellt werden.
 
 Im rechten Fenster können wir einen Titel für unsere Ontologie festlegen und da unsere selbst erstellte Ontologie den Tourismus in verschiedenen Ländern behandeln soll, wählen wir den Titel „Tourismus“. Auf der linken Seite finden wir die Default Elements „Class“, „Property“ und „Datatype“, aus denen wir unseren Graphen zusammensetzen können.
-
-Kurze Übersicht Default Elements:
 
 Kurze Übersicht Default Elements:
 
