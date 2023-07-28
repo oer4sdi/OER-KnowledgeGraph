@@ -264,7 +264,7 @@ Folge dem Screencast und nutze die vorgestellten Ressourcen gerne um weitere Abf
 
 **Skript zum Videoguide**
 
-**Wikidata**
+**Wikidata**<br>
 Auf der Wikidata-Webseite werden die Daten in sogenannten „Items“ und „Properties“ organisiert. Ein Item repräsentiert eine Entität wie eine Person, einen Ort oder ein Konzept. Jedes Item hat eine eindeutige ID, die sogenannte QID. Properties hingegen sind Eigenschaften oder Merkmale, die zu einem Item gehören, z.B. das Geburtsdatum einer Person oder die Fläche eines Landes die als PID gespeichert werden.
 
 Entitäten haben eine ID die mit einem Q gefolgt von einer Zahl ausgestattet ist. Diese IDs dienen dazu, einzelne Items eindeutig zu identifizieren und sie von anderen zu unterscheiden. So hat z.B. der Name Albert Einstein die QID „Q937“.
@@ -273,14 +273,14 @@ P-IDs werden dagegen für Properties verwendet, die die Eigenschaften oder Merkm
 
 Um herauszufinden, wofür eine bestimmte QID oder PID steht, kannst du das offizielle Wikidata Property Verzeichnis und die Wikidata-Webseite selbst nutzen.
 
-**SPARQL-Abfragen**
+**SPARQL-Abfragen**<br>
 Für diese Übung benötigen wir den Wikidata Query Service, mit dem wir Daten aus Wikidata abfragen können. Der Service verwendet die Abfragesprache Sparql. Im Folgenden finden Sie einige Beispiele für Sparql-Abfragen. Die erste ist eine sehr einfache Abfrage, mit der Informationen über Katzen aus der Wikidata-Datenbank abgerufen werden.
 
 Die Abfrage gibt die Variablen „?item“ und „?itemLabel“ zurück. Im Block „Where“ wird nach Items mit der Eigenschaft „P31“ (ist ein/e) mit dem Wert „Q146“ (Katze) gesucht. Der Block „Service wikibase:Label“ ermöglicht es, die Labels und Bezeichnungen der Ergebnisse in der gewünschten Sprache zu erhalten. Mit „bd:serviceParam wikibase:language „[Auto_Language],en“" geben wir an, dass wir die Labels in der automatisch ermittelten Sprache Englisch erhalten möchten.  Als Ergebnis der Abfrage erhalten wir eine Liste der Katzen-Items und ihrer Labels.
-![](Single_Learning_Element/Img/Katzen.png)
+![](Single_Learning_Element/Img/Katzen.PNG)
 
 In einer zweiten Abfrage wird eine Karte mit Krankenhäusern angezeigt. Diese Abfrage ist schon etwas komplexer. Sie nutzt die Datenbank von Wikidata, um die geographischen Koordinaten der Krankenhäuser abzurufen und auf einer Karte darzustellen. Mit dem Befehl „SELECT DISTICT“ werden alle Ergebnisvariablen zurückgegeben. Diese Abfrage sucht in der Wikidata-Datenbank nach Krankenhäusern und ruft deren geographische Koordinaten ab, um sie auf einer Karte anzuzeigen.
-![](Single_Learning_Element/Img/Krankenhaus.png)
+![](Single_Learning_Element/Img/Krankenhaus.PNG)
 
 Im Folgenden werden wir eine eigene Sparql-Abfrage erstellen, die eine Liste aller Hauptstädte in Europa ausgibt.
 
@@ -290,7 +290,7 @@ Im Folgenden werden wir eine eigene Sparql-Abfrage erstellen, die eine Liste all
 * Die dritte Bedingung in Zeile 5 stellt sicher, dass das Land zum Kontinent Europa gehört.
 * Die vierte Bedingung stellt sicher, dass die Hauptstadt mit dem Land in der Variablen „?Country“ verknüpft ist.
 * Zeile 7 bestimmt, dass die Labels oder Bezeichnungen der Ergebnisse abgerufen werden und in der automatischen Sprache Englisch abgerufen und ausgegeben werden.
-![](Single_Learning_Element/Img/Hauptstaedte.png)
+![](Single_Learning_Element/Img/Hauptstaedte.PNG)
 
 ## 4. Quiz
 
