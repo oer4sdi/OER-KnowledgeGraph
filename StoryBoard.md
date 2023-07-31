@@ -249,7 +249,7 @@ Als nächstes definieren wir erste Beziehungen zwischen den erstellten Klassen. 
 
 Als nächstes erstellen wir drei Klassen, die die Länder repräsentieren, in unserem Beispiel Deutschland, Italien und England. Diese Klassen verbinden wir alle als Unterklassen mit der Klasse Land. Außerdem erstellen wir drei Klassen, die die Hauptstädte der ausgewählten Länder repräsentieren. Diese werden dann zunächst als Unterklassen mit der Klasse Stadt verbunden. 
 
-Da Berlin aber nicht nur eine Stadt, sondern auch die Hauptstadt von Deutschland ist, können wir eine „ObjektProperty“ verwenden, um die Verbindung zwischen dem Land und der Hauptstadt herzustellen. Dazu erstellen wir eine Verbindung vom Land zur jeweiligen Hauptstadt und beschreiben diese Verbindung als Hauptstadt.
+Da Berlin aber nicht nur eine Stadt, sondern auch die Hauptstadt von Deutschland ist, können wir eine „ObjectProperty“ verwenden, um die Verbindung zwischen dem Land und der Hauptstadt herzustellen. Dazu erstellen wir eine Verbindung vom Land zur jeweiligen Hauptstadt und beschreiben diese Verbindung als Hauptstadt.
 
 Diese Schritte müssen nun für die Sehenswürdigkeiten der Städte wiederholt werden. Diese können nun selbst erstellt werden.
 
