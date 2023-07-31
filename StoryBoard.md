@@ -269,7 +269,7 @@ Auf der Wikidata-Webseite werden die Daten in sogenannten „Items“ und „Pro
 
 Entitäten haben eine ID die mit einem Q gefolgt von einer Zahl ausgestattet ist. Diese IDs dienen dazu, einzelne Items eindeutig zu identifizieren und sie von anderen zu unterscheiden. So hat z.B. der Name Albert Einstein die QID „Q937“.
 
-P-IDs werden dagegen für Properties verwendet, die die Eigenschaften oder Merkmale der Items darstellen. Eine PID besteht aus einem P gefolgt von einer Nummer. P 569 steht beispielsweise für das Property Geburtsdatum. Die P-IDs kennzeichnen die verschiedenen Eigenschaften, die den Items zugeordnet sind.
+P-IDs werden dagegen für Properties verwendet, die die Eigenschaften oder Merkmale der Items darstellen. Eine PID besteht aus einem P gefolgt von einer Nummer. "P569" steht beispielsweise für das Property Geburtsdatum. Die P-IDs kennzeichnen die verschiedenen Eigenschaften, die den Items zugeordnet sind.
 
 Um herauszufinden, wofür eine bestimmte QID oder PID steht, kannst du das offizielle Wikidata Property Verzeichnis und die Wikidata-Webseite selbst nutzen.
 
