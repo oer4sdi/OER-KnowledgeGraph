@@ -1,4 +1,4 @@
-# OER zu Knowledge Graphen (in Arbeit!)          
+# OER zu Knowledge Graphen        
 
 Dieses Repository enthält alle Materialien, die zur Erstellung und Veröffentlichung einer Open Educational Resource (OER) zum Thema Semantic Web und dem Linked Data notwendig sind. Das OER-Modul bietet a) einige Hintergrundinformationen zu den Konzepten des Semantischen Web mit Anwendungsbeispielen aus der Praxis und b) eine technische Anleitung zur Erstellung von Ontologien und Abfrage-Mechaniken. 
 
