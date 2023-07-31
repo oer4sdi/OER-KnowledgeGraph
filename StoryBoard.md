@@ -299,7 +299,7 @@ Im Folgenden werden wir eine eigene Sparql-Abfrage erstellen, die eine Liste all
 
 **Fragen**
 
-* Wer ist der Erfinder des World Wide Web und Semantic Web?
+* Wer ist der Erfinder des World Wide und des Semantic Web?
 
 * Ordne den Jahreszahlen ihre Entwicklungen zu
 
@@ -307,21 +307,21 @@ Im Folgenden werden wir eine eigene Sparql-Abfrage erstellen, die eine Liste all
 
 * Beim Linked Data Konzept muss der Benutzer den genauen Speicherort der Daten kennen!
 
-* Beim Knowledge Graphen Konzept wird das Resource Description Framework(RDF) als Datenmodel genutzt!
+* Beim Knowledge Graphen Konzept wird das Resource Description Framework (RDF) als Datenmodel genutzt!
 
-* Knowledge Graph kann Informationen aus Quellen wie APIs, unstrukturierten Texten, stukturierten Datenbanken und verschiedenen Webseiten zusammenführen!
+* Ein Knowledge Graph kann Informationen aus Quellen wie APIs, unstrukturierten Texten, stukturierten Datenbanken und verschiedenen Webseiten zusammenführen!
 
 * Ziehe die Wörter in die richtigen Felder!
 
 * Welche drei Komponenten gibt es im RDF-Model?
 
-* Web Ontology Language (OWL) wird verwendet, um komplexe Ontologien zu definieren, also hierarchische und semantische Strukturen, die Wissen und Beziehungen zwischen Konzepten repräsentieren!
+* Die Web Ontology Language (OWL) wird verwendet, um komplexe Ontologien zu definieren, also hierarchische und semantische Strukturen, die Wissen und Beziehungen zwischen Konzepten repräsentieren!
 
-* GEOSPARQL ermöglicht die Abfrage auf RDF-Daten von was?
+* GEOSPARQL ermöglicht speziell die Abfrage auf RDF-Daten von welcher Art von Informationen?
 
 * Welche Rolle spielt Wikidata in der Wissensvernetzung im Web?
 
-* Von welcher Organisation ist INSPIRE?
+* Von welcher Organisation wurde INSPIRE inizieriert und weitherin verwaltet?
 
 ## 5. Zusammenfassung
 
