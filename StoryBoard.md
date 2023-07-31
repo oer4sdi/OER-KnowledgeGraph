@@ -1,4 +1,4 @@
-# OER zu Knowledge Graphen (in Arbeit!)       
+# OER zu Knowledge Graphen      
 
 In dieser Open Educational Resource (OER) lernst du, wie die Wissensmodellierung in Knowledge Graphen strukturiert ist, aus welchen Elementen sich die übergeordnete Vision des Semantic Webs zusammensetzt und mit welchen Techniken heutzutage praktische Anwendungsbeispiele von diesen Konzepten profitieren können. 
 
@@ -32,7 +32,7 @@ Das Projekt OER4SDI wurde von der Digitalen Hochschule NRW empfohlen und wird du
 
 **Gliederung des thematischen Hintergrunds**
 * Kurze Einleitung mit allgemeinem Kontext und Hintergrund (in wenigen Sätzen) 
-* Inhaltliche Vertiefung (Texte welche die gegebenen Informationen zusammenfasst + Videoformat)
+* Inhaltliche Vertiefung (Texte welche die gegebenen Informationen zusammenfassen + Videoformate)
 
 
 ### 2.1 Kurze Einführung
