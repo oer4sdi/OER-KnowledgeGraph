@@ -1,0 +1,453 @@
+﻿WEBVTT
+
+00:00:00.590 --> 00:00:04.310
+Hallo und herzlich willkommen zu diesem Videoscreencast
+über Wikidata.
+
+00:00:04.310 --> 00:00:09.490
+Wir werden uns mit den Grundlagen von Wikidata
+beschäftigen und erfahren, wie wir Informationen
+
+00:00:09.490 --> 00:00:11.559
+speichern und abrufen können.
+
+00:00:11.559 --> 00:00:12.559
+Lass uns also loslegen!
+
+00:00:12.559 --> 00:00:15.879
+Was ist Wikidata eigentlich?
+
+00:00:15.879 --> 00:00:21.550
+Wikidata ist eine frei zugängliche Wissensdatenbank,
+die von der Wikimedia Foundation entwickelt
+
+00:00:21.550 --> 00:00:22.550
+wurde.
+
+00:00:22.550 --> 00:00:27.650
+Sie wurde ins Leben gerufen, um strukturierte
+Daten zu sammeln und zu speichern, die in
+
+00:00:27.650 --> 00:00:30.970
+anderen Wikimedia-Projekten wie Wikipedia
+verwendet werden können.
+
+00:00:30.970 --> 00:00:37.810
+Anders als Wikipedia, das sich auf textbasierte
+Informationen konzentriert, ist Wikidata darauf
+
+00:00:37.810 --> 00:00:44.090
+ausgerichtet, Fakten und Beziehungen zwischen
+verschiedenen Entitäten zu erfassen.
+
+00:00:44.090 --> 00:00:46.250
+Wikidata hat mehrere Ziele.
+
+00:00:46.250 --> 00:00:50.610
+Es soll eine zentrale Quelle für strukturierte
+Daten sein, die von anderen Projekten genutzt
+
+00:00:50.610 --> 00:00:52.309
+werden können.
+
+00:00:52.309 --> 00:00:57.239
+Es ermöglicht die Verknüpfung von Informationen
+in verschiedenen Sprachen und Projekten.
+
+00:00:57.239 --> 00:01:02.539
+Darüber hinaus sollen durch die Nutzung von
+Wikidata maschinenlesbare Informationen bereitgestellt
+
+00:01:02.539 --> 00:01:06.770
+werden, die von KI-Systemen, Bots und anderen
+Anwendungen genutzt werden können.
+
+00:01:06.770 --> 00:01:12.330
+Die Daten werden in sogenannten "Items" und
+"Properties" organisiert.
+
+00:01:12.330 --> 00:01:18.130
+Ein Item repräsentiert eine Entität wie
+eine Person, einen Ort oder ein Konzept.
+
+00:01:18.130 --> 00:01:23.390
+Jedes Item hat eine eindeutige ID, die als
+QID bezeichnet wird.
+
+00:01:23.390 --> 00:01:29.310
+Properties sind Eigenschaften oder Merkmale,
+die zu einem Item gehören, z. B. das Geburtsdatum
+
+00:01:29.310 --> 00:01:35.070
+einer Person oder die Fläche eines Landes
+die als P-IDs hinterlegt sind.
+
+00:01:35.070 --> 00:01:38.720
+Aber lasst uns noch genauer auf die Item-IDs
+eingehen.
+
+00:01:38.720 --> 00:01:43.460
+Entitäten haben eine ID die mit einem Q gefolgt
+von einer Zahl ausgestattet ist.
+
+00:01:43.460 --> 00:01:49.530
+Diese IDs dienen dazu, einzelne Items eindeutig
+zu identifizieren und sie von anderen zu unterscheiden.
+
+00:01:49.530 --> 00:01:54.729
+Zum Beispiel hat Albert Einstein die Q-ID
+Q937.
+
+00:01:54.729 --> 00:02:00.070
+Diese IDs sind wichtig, wenn wir spezifische
+Informationen über ein bestimmtes Item abrufen
+
+00:02:00.070 --> 00:02:01.070
+möchten.
+
+00:02:01.070 --> 00:02:07.090
+P-IDs hingegen werden für Properties verwendet,
+die die Eigenschaften oder Merkmale der Items
+
+00:02:07.090 --> 00:02:08.090
+darstellen.
+
+00:02:08.090 --> 00:02:13.610
+Eine P-ID besteht aus einem "P" gefolgt von
+einer Zahl.
+
+00:02:13.610 --> 00:02:17.200
+P569 steht zum Beispiel für das Property
+"Geburtsdatum".
+
+00:02:17.200 --> 00:02:23.730
+Die P-IDs kennzeichnen die verschiedenen Eigenschaften,
+die den Items zugeordnet sind.
+
+00:02:23.730 --> 00:02:29.700
+Sie ermöglichen es, Informationen über die
+Entitäten strukturiert zu speichern und abzurufen.
+
+00:02:29.700 --> 00:02:36.030
+Um herauszufinden, wofür eine bestimmte Q-ID
+oder P-ID steht, kannst du das offizielle
+
+00:02:36.030 --> 00:02:39.890
+Wikidata-Property-Verzeichnis und die Wikidata-Website
+selbst nutzen.
+
+00:02:39.890 --> 00:02:46.640
+Im Wikidata-Verzeichnis kannst du nach spezifischen
+Items oder Properties suchen und weitere Informationen
+
+00:02:46.640 --> 00:02:47.640
+über sie erhalten.
+
+00:02:47.640 --> 00:02:53.970
+Die Wikidata-Website bietet eine umfangreiche
+Dokumentation und eine Vielzahl von Hilfeseiten,
+
+00:02:53.970 --> 00:03:00.670
+die dir dabei helfen, die Bedeutung und Verwendung
+der verschiedenen IDs besser zu verstehen.
+
+00:03:00.670 --> 00:03:05.280
+Nun werden wir uns den Wikidata Query Service
+anschauen, mit dem wir Daten aus Wikidata
+
+00:03:05.280 --> 00:03:06.280
+abfragen können.
+
+00:03:06.280 --> 00:03:09.930
+Der Wikidata Query Service verwendet die Abfragesprache
+SPARQL.
+
+00:03:09.930 --> 00:03:14.239
+Lasst uns einige Beispiele für SPARQL-Abfragen
+betrachten.
+
+00:03:14.239 --> 00:03:17.310
+Das erste Beispiel stellt eine sehr simple
+Abfrage da.
+
+00:03:17.310 --> 00:03:22.220
+Die Abfrage zielt darauf ab, Informationen
+über Katzen aus der Wikidata-Datenbank abzurufen.
+
+00:03:22.220 --> 00:03:27.530
+Die Abfrage gibt die Variablen "?item" und
+"?itemLabel" zurück.
+
+00:03:27.530 --> 00:03:36.780
+Im Block "WHERE" suchen wir nach Items, die
+die Eigenschaft "P31" (ist eine/r/s) mit dem
+
+00:03:36.780 --> 00:03:40.439
+Wert "Q146" (Katze) haben.
+
+00:03:40.439 --> 00:03:44.040
+Dadurch stellen wir sicher, dass die abgerufenen
+Items tatsächlich Katzen sind.
+
+00:03:44.040 --> 00:03:50.950
+Der Block "SERVICE wikibase:label" ermöglicht
+es uns, die Labels oder Bezeichnungen der
+
+00:03:50.950 --> 00:03:53.310
+Ergebnisse in der gewünschten Sprache zu
+erhalten.
+
+00:03:53.310 --> 00:04:02.530
+Mit "bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en""
+wird angegeben, dass wir die Labels in der
+
+00:04:02.530 --> 00:04:08.060
+Sprache "[AUTO_LANGUAGE]" (automatisch ermittelt)
+und Englisch ("en") erhalten möchten.
+
+00:04:08.060 --> 00:04:14.030
+Durch die Abfrage erhalten wir eine Liste
+von Katzen-Items und ihren dazugehörigen
+
+00:04:14.030 --> 00:04:15.030
+Labels.
+
+00:04:15.030 --> 00:04:22.190
+Als Beispiel 2 betrachten wir eine SPARQL-Abfrage,
+die dazu dient, eine Karte mit Krankenhäusern
+
+00:04:22.190 --> 00:04:23.190
+anzuzeigen.
+
+00:04:23.190 --> 00:04:26.210
+Diese Abfrage ist bereits etwas komplexer.
+
+00:04:26.210 --> 00:04:31.800
+Sie nutzt die Wikidata-Datenbank, um die geografischen
+Koordinaten von Krankenhäusern abzurufen
+
+00:04:31.800 --> 00:04:35.129
+und auf einer Karte darzustellen.
+
+00:04:35.129 --> 00:04:39.400
+Nach einigen auskommentierten Zeilen beginnt
+die eigentliche Abfrage mit dem Schlüsselwort
+
+00:04:39.400 --> 00:04:45.009
+"SELECT DISTINCT *". Dies bedeutet, dass alle
+Ergebnisvariablen zurückgegeben werden sollen.
+
+00:04:45.009 --> 00:04:50.250
+Das Sternchen (*) steht hier als Platzhalter
+für alle Variablen.
+
+00:04:50.250 --> 00:04:53.940
+Der Block "WHERE" gibt die Bedingungen an,
+die die Ergebnisse erfüllen müssen.
+
+00:04:53.940 --> 00:05:02.440
+In diesem Fall suchen wir nach Items (?item),
+die sowohl die Eigenschaft "P31" (ist ein/eine)
+
+00:05:02.440 --> 00:05:07.130
+als auch die Eigenschaft "P625" (geografische
+Koordinaten) besitzen.
+
+00:05:07.130 --> 00:05:15.310
+Die Besonderheit hierbei ist, dass wir die
+Eigenschaft "P31" mit dem Operator "P279*"
+
+00:05:15.310 --> 00:05:18.259
+(subclass of) kombinieren.
+
+00:05:18.259 --> 00:05:23.130
+Dies bedeutet, dass wir nicht nur nach direkten
+Instanzen suchen, sondern auch nach Unterinstanzen
+
+00:05:23.130 --> 00:05:28.090
+der Klasse "Q16917" (Krankenhaus).
+
+00:05:28.090 --> 00:05:33.940
+Die Variable "?geo" wird verwendet, um die
+geografischen Koordinaten des Items abzurufen.
+
+00:05:33.940 --> 00:05:41.600
+Zusammengefasst sucht diese Abfrage nach Krankenhäusern
+in der Wikidata-Datenbank und ruft ihre geografischen
+
+00:05:41.600 --> 00:05:45.259
+Koordinaten ab, um sie auf einer Karte darzustellen.
+
+00:05:45.259 --> 00:05:50.910
+Durch die Verwendung des Standardansichtsformats
+"Map" wird gewährleistet, dass die Ergebnisse
+
+00:05:50.910 --> 00:05:52.310
+als Karte visualisiert werden.
+
+00:05:52.310 --> 00:05:59.139
+Umso umfangreicher die Abfrage, desto spezifischer
+werden die Ergebnisse.
+
+00:05:59.139 --> 00:06:04.100
+Bei dieser SPARQL-Eingabe handelt es sich
+beispielsweise um eine Abfrage, die darauf
+
+00:06:04.100 --> 00:06:08.500
+abzielt, eine Karte mit den Geburts- und Sterbeorten
+von Wirtschaftswissenschaftlern zu erstellen.
+
+00:06:08.500 --> 00:06:15.069
+Die punktuell dargestellten Orte werden je
+nach hinterlegtem Zeitalter mit verschiedenen
+
+00:06:15.069 --> 00:06:17.530
+Farben eingefärbt.
+
+00:06:17.530 --> 00:06:22.880
+Auf diese Abfrage werden wir jetzt aber nicht
+mehr genauer eingehen, sondern selbst einmal
+
+00:06:22.880 --> 00:06:27.130
+versuchen eine eigene SPARQL-Abfrage zu erstellen.
+
+00:06:27.130 --> 00:06:30.759
+Wir möchten uns eine Liste aller Hauptstädte
+ausgeben lassen, die in Europa liegen.
+
+00:06:30.759 --> 00:06:38.250
+Die Abfrage beginnt mit dem Schlüsselwort
+"SELECT", gefolgt von den Variablen "?capital"
+
+00:06:38.250 --> 00:06:39.810
+und "?capitalLabel".
+
+00:06:39.810 --> 00:06:45.360
+Hier geben wir an, welche Ergebnisvariablen
+wir aus der Abfrage zurückerhalten möchten.
+
+00:06:45.360 --> 00:06:51.069
+In diesem Fall wollen wir sowohl die Variable
+"?capital" als auch die Variable "?capitalLabel"
+
+00:06:51.069 --> 00:06:52.069
+abrufen.
+
+00:06:52.069 --> 00:06:57.590
+Die Variable "?capital" repräsentiert die
+Hauptstadt, während die Variable "?capitalLabel"
+
+00:06:57.590 --> 00:07:00.710
+den Namen der Hauptstadt enthält.
+
+00:07:00.710 --> 00:07:03.000
+Der nächste Teil der Abfrage ist das Schlüsselwort
+"WHERE".
+
+00:07:03.000 --> 00:07:07.000
+Hier geben wir an, welche Bedingungen die
+Ergebnisse erfüllen müssen.
+
+00:07:07.000 --> 00:07:10.840
+Alle Bedingungen werden innerhalb einer geschweiften
+Klammer zusammengefasst.
+
+00:07:10.840 --> 00:07:18.930
+Die erste Bedingung lautet "?capital wdt:P31
+wd:Q5119".
+
+00:07:18.930 --> 00:07:30.400
+Hier suchen wir nach Items, bei denen das
+Property "P31" (Instanz von) den Wert "Q5119"
+
+00:07:30.400 --> 00:07:32.670
+(Hauptstadt) hat.
+
+00:07:32.670 --> 00:07:38.470
+Das bedeutet, dass wir nur Items auswählen,
+die als Hauptstadt klassifiziert sind.
+
+00:07:38.470 --> 00:07:48.479
+Die zweite Bedingung "?capital wdt:P1376 ?country"
+gibt an, dass das Item "?capital" eine Beziehung
+
+00:07:48.479 --> 00:07:56.220
+zum Property "P1376" (Land) hat, das in der
+Variable "?country" gespeichert wird.
+
+00:07:56.220 --> 00:08:00.979
+Diese Bedingung stellt sicher, dass die Hauptstadt
+mit einem Land verknüpft ist.
+
+00:08:00.979 --> 00:08:11.879
+Die dritte Bedingung "?country wdt:P30 wd:Q46"
+besagt, dass das Land in der Variable "?country"
+
+00:08:11.879 --> 00:08:19.000
+das Property "P30" (ist Teil von) den Wert
+"Q46" (Europa) haben muss.
+
+00:08:19.000 --> 00:08:22.840
+Dies stellt sicher, dass das Land zum Kontinent
+Europa gehört.
+
+00:08:22.840 --> 00:08:30.569
+Die vierte Bedingung "?capital wdt:P17 ?country"
+stellt sicher, dass die Hauptstadt mit dem
+
+00:08:30.569 --> 00:08:32.839
+Land in der Variable "?country" verknüpft
+ist.
+
+00:08:32.839 --> 00:08:38.750
+Das Property "P17" (Land) wird verwendet,
+um die Beziehung herzustellen.
+
+00:08:38.750 --> 00:08:44.601
+Schließlich verwenden wir das Schlüsselwort
+"SERVICE" gefolgt von "wikibase:label", um
+
+00:08:44.601 --> 00:08:46.400
+die Labels oder Bezeichnungen der Ergebnisse
+abzurufen.
+
+00:08:46.400 --> 00:08:53.860
+Mit "bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en""
+geben wir an, dass wir die Labels in der Sprache
+
+00:08:53.860 --> 00:09:00.310
+"[AUTO_LANGUAGE]" (automatisch ermittelt)
+und Englisch ("en") erhalten möchten.
+
+00:09:00.310 --> 00:09:04.240
+Probiert die Abfrage selbst aus und schaut,
+welche Hauptstädte Europas ihr als Ergebnis
+
+00:09:04.240 --> 00:09:05.240
+erhaltet!
+
+00:09:05.240 --> 00:09:11.240
+Ihr habt nun einen ersten Überblick über
+Wikidata und den Wikidata Query Service erhalten.
+
+00:09:11.240 --> 00:09:17.100
+Wir haben gelernt, wie Informationen in Items
+und Properties organisiert sind und wie wir
+
+00:09:17.100 --> 00:09:22.250
+SPARQL-Abfragen verwenden können, um gezielte
+Informationen abzurufen.
+
+00:09:22.250 --> 00:09:25.700
+Wikidata bietet eine unglaubliche Menge an
+Wissen und die Möglichkeit, dieses Wissen
+
+00:09:25.700 --> 00:09:27.090
+auf verschiedene Weise zu nutzen.
+
+00:09:27.090 --> 00:09:31.820
+Ich hoffe, dass euch dieses Video geholfen
+hat, die Grundlagen von Wikidata zu verstehen.
+
+00:09:31.820 --> 00:09:33.339
+Vielen Dank fürs Zuschauen.

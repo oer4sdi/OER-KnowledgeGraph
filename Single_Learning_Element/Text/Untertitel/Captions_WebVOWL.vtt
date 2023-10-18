@@ -1,0 +1,617 @@
+﻿WEBVTT
+
+00:00:00.489 --> 00:00:05.140
+Hallo und herzlich willkommen zu diesem Screencast
+zum Thema Ontologien.
+
+00:00:05.140 --> 00:00:09.800
+In diesem Video werden wir das Tool WebVOWL
+kennenlernen, mit dem wir Ontologien direkt
+
+00:00:09.800 --> 00:00:11.960
+in unserem Browser visualisieren und erstellen
+können.
+
+00:00:11.960 --> 00:00:17.380
+Wir werden uns zunächst beispielhafte Graphen
+genauer ansehen und die verschiedenen Strukturen
+
+00:00:17.380 --> 00:00:18.779
+der Ontologien erforschen.
+
+00:00:18.779 --> 00:00:23.430
+Anschließend werden wir eine eigene Ontologie
+zu einem spezifischen Thema erstellen.
+
+00:00:23.430 --> 00:00:28.820
+Öffne bitte nun über den mitgelieferten
+Link oder über eine Suchmaschine die Anwendung
+
+00:00:28.820 --> 00:00:35.550
+WebVOWl in deinem Standardbrowser, um die
+Übung aktiv mitklicken zu können.
+
+00:00:35.550 --> 00:00:40.010
+Ontologien sind strukturierte Modelle, die
+Konzepte, Eigenschaften und Beziehungen innerhalb
+
+00:00:40.010 --> 00:00:41.950
+einer bestimmten Domäne repräsentieren.
+
+00:00:41.950 --> 00:00:47.379
+Sie ermöglichen ein gemeinsames Verständnis
+von Informationen und dienen als Grundlage
+
+00:00:47.379 --> 00:00:49.320
+für die semantische Interoperabilität.
+
+00:00:49.320 --> 00:00:56.399
+Ontologien helfen dabei, komplexe Daten zu
+organisieren, zu verknüpfen und zu verstehen.
+
+00:00:56.399 --> 00:01:03.660
+WebVOWL ist ein benutzerfreundliches Online-Tool,
+das uns dabei unterstützt, OWL-Ontologien
+
+00:01:03.660 --> 00:01:07.570
+zu visualisieren und interaktiv zu erkunden.
+
+00:01:07.570 --> 00:01:12.180
+Es ermöglicht uns, komplexe Zusammenhänge
+und Strukturen in einer Ontologie anschaulich
+
+00:01:12.180 --> 00:01:13.180
+darzustellen.
+
+00:01:13.180 --> 00:01:19.950
+Wenn wir WebVOWL öffnen, werden uns zunächst
+zwei Fenster angezeigt.
+
+00:01:19.950 --> 00:01:25.590
+Im Hauptfenster wird eine Visualisierung eines
+interaktiven Graphens dargestellt der eine
+
+00:01:25.590 --> 00:01:27.299
+OWL-Ontologie repräsentiert.
+
+00:01:27.299 --> 00:01:32.850
+Wir können ein- und auszoomen, können einzelne
+Elemente des Graphens auswählen und diese
+
+00:01:32.850 --> 00:01:36.650
+frei auf der Oberfläche bewegen.
+
+00:01:36.650 --> 00:01:39.330
+Im rechten Fenster befindet sich eine Infobox.
+
+00:01:39.330 --> 00:01:45.740
+In dieser Infobox ist unteranderem der Titel
+der dargestellten Ontologie, sowie eine Kurzbeschreibung
+
+00:01:45.740 --> 00:01:46.890
+hinterlegt.
+
+00:01:46.890 --> 00:01:54.140
+Zusätzlich tauchen hier Infos zu Metadaten
+oder Statistiken auf.
+
+00:01:54.140 --> 00:01:59.289
+Interessant wird die Infobox vor allem, sobald
+ein Element aus dem Graphen ausgewählt wird.
+
+00:01:59.289 --> 00:02:04.050
+Dann erscheinen unter dem Menüpunkt „Selection
+Details“ detaillierte Informationen, die
+
+00:02:04.050 --> 00:02:07.310
+sich auf das jeweilige Element beziehen.
+
+00:02:07.310 --> 00:02:11.129
+Im unteren Bereich der Seite befindet sich
+eine Leiste mit verschiedenen Menüpunkten:
+
+00:02:11.129 --> 00:02:16.379
+Über die Suchleiste können Elemente des
+Graphen über ihre Bezeichnung gesucht werden.
+
+00:02:16.379 --> 00:02:20.990
+Unter „Ontology“ finden wir zum einen
+beispielhafte Ontologien, an denen wir uns
+
+00:02:20.990 --> 00:02:22.080
+orientieren können.
+
+00:02:22.080 --> 00:02:26.490
+Darüber hinaus können hier aber auch weitere
+Ontologien eingeladen oder neu erstellt werden.
+
+00:02:26.490 --> 00:02:31.489
+Über den Menüpunkt „Export“ können
+die erstellten Ontologien in verschiedenen
+
+00:02:31.489 --> 00:02:35.400
+Formaten abgespeichert oder als URL zur Verfügung
+gestellt werden.
+
+00:02:35.400 --> 00:02:41.209
+Der Menüpunkt „Filter“ ermöglicht es
+einzelne Inhalte in der Visualisierung zu
+
+00:02:41.209 --> 00:02:45.260
+verstecken, sodass die Übersichtlichkeit
+gesteigert wird und der Betrachter sich auf
+
+00:02:45.260 --> 00:02:46.850
+das wesentliche konzentrieren kann.
+
+00:02:46.850 --> 00:02:52.909
+Ebenfalls der übersichtlichen Visualisierung
+zugute kommt der Menüpunkt „Options“
+
+00:02:52.909 --> 00:02:58.120
+mit einigen Einstellungsmöglichkeiten zu
+Zoomstufen, Labelgrößen oder Distanzen zwischen
+
+00:02:58.120 --> 00:02:59.360
+den Knoten.
+
+00:02:59.360 --> 00:03:04.519
+Über den Punkt „Modes“ lässt sich der
+Bearbeitungsmodus auf „Edit“ umstellen.
+
+00:03:04.519 --> 00:03:08.650
+Dies ermöglicht erst das Hinzufügen oder
+Abändern von Graphelementen.
+
+00:03:08.650 --> 00:03:13.930
+Sobald der Bearbeitungsmodus eingeschaltet
+ist, wird der Punkt „Create new Ontology“
+
+00:03:13.930 --> 00:03:16.849
+unter dem übergeordneten Menüpunkt „Ontology“
+nutzbar.
+
+00:03:16.849 --> 00:03:21.480
+Außerdem erscheint ein neues Fenster auf
+der linken Seite der Oberfläche.
+
+00:03:21.480 --> 00:03:25.430
+Auf die dort gelisteten Default Elements gehen
+wir später näher ein.
+
+00:03:25.430 --> 00:03:31.150
+Nun solltest du bereits einen guten Überblick
+über die Oberfläche des Tools haben.
+
+00:03:31.150 --> 00:03:36.640
+Schauen wir uns also gemeinsam einen der Beispielgraphen
+an, um die verschiedenen Elemente und Strukturen
+
+00:03:36.640 --> 00:03:37.640
+zu verstehen.
+
+00:03:37.640 --> 00:03:42.730
+Wir Öffnen unter „Ontology“ das Beispiel
+„Personas Ontology“.
+
+00:03:42.730 --> 00:03:48.489
+Das PersonasOnto zeigt den Bereich der Personas
+zusammen mit dem zugehörigen Konzept und
+
+00:03:48.489 --> 00:03:49.489
+den Eigenschaften.
+
+00:03:49.489 --> 00:03:56.209
+Dabei wird eine Persona als ein Benutzerarchetyp
+betrachtet, der dazu verwendet werden kann,
+
+00:03:56.209 --> 00:04:01.561
+"Entscheidungen über Produktmerkmale, Navigation,
+Interaktionen und sogar visuelles Design zu
+
+00:04:01.561 --> 00:04:02.561
+treffen".
+
+00:04:02.561 --> 00:04:08.200
+Diese Ontologie soll einige der Fragen im
+Zusammenhang mit dieser Methodik klären,
+
+00:04:08.200 --> 00:04:13.640
+z. B. wie Personas mit anderen Informationen
+in Einklang gebracht werden und wer für ihre
+
+00:04:13.640 --> 00:04:17.959
+Interpretation und Validierung verantwortlich
+ist.
+
+00:04:17.959 --> 00:04:23.130
+Es werden Klassen wie "Person", "Persona Type"
+und "Organization" dargestellt.
+
+00:04:23.130 --> 00:04:28.440
+Die Beziehungen zwischen diesen Klassen werden
+durch Eigenschaften wie "isMemberOf" oder
+
+00:04:28.440 --> 00:04:30.000
+"hasPersonaType" beschrieben.
+
+00:04:30.000 --> 00:04:37.300
+Wir finden hier also die klassische Triplet
+Struktur mit Subjekt - Prädikat - Objekt
+
+00:04:37.300 --> 00:04:38.300
+wieder.
+
+00:04:38.300 --> 00:04:43.250
+OWL ermöglicht es uns aber auch weitere Elemente
+und Beziehungsarten zu definieren.
+
+00:04:43.250 --> 00:04:48.460
+Diese Möglichkeiten schauen wir uns nun an,
+während wir eine eigene Ontologie erstellen.
+
+00:04:48.460 --> 00:04:51.630
+Unser übergeordnetes Thema wird "Tourismus"
+sein.
+
+00:04:51.630 --> 00:04:56.900
+Wir werden uns auf einige grundlegende Klassen
+konzentrieren, wie zum Beispiel "Land", "Stadt"
+
+00:04:56.900 --> 00:04:58.250
+und "Sehenswürdigkeit".
+
+00:04:58.250 --> 00:05:04.100
+Dazu setzen wir zunächst ein Häkchen bei
+„Modes“ -&gt; „Editing“ und navigieren
+
+00:05:04.100 --> 00:05:10.960
+dann über „Ontology“ -&gt; „Create new
+Ontology“ um einen neuen Graphen anzulegen.
+
+00:05:10.960 --> 00:05:15.290
+Im rechten Fenster können wir einen Titel
+für unsere Ontologie festlegen und wählen
+
+00:05:15.290 --> 00:05:17.820
+hier passend „Tourismus“.
+
+00:05:17.820 --> 00:05:22.190
+Zusätzlich können wir eine kurze Beschreibung
+eintippen.
+
+00:05:22.190 --> 00:05:25.569
+Beispielsweise: „Diese Ontologie beschreibt
+das Konzept Tourismus.
+
+00:05:25.569 --> 00:05:34.430
+Auf der linken Seite finden wir die „Default
+Elements“ „Class“, „Property“ und
+
+00:05:34.430 --> 00:05:37.400
+„Datatype“ aus denen wir unseren Graphen
+Zusammensetzen können.
+
+00:05:37.400 --> 00:05:43.250
+Kurz zur Übersicht:
+"OWL:thing" ist ein grundlegendes Konzept
+
+00:05:43.250 --> 00:05:49.290
+in OWL und repräsentiert alle möglichen
+Instanzen oder Entitäten in einer Ontologie.
+
+00:05:49.290 --> 00:05:53.620
+Es stellt den obersten Punkt in der Klassenhierarchie
+dar und umfasst alles, was in der Ontologie
+
+00:05:53.620 --> 00:05:54.620
+existieren kann.
+
+00:05:54.620 --> 00:06:01.229
+"OWL:class" ist ein Konzept in OWL, das eine
+Klasse in einer Ontologie darstellt.
+
+00:06:01.229 --> 00:06:06.620
+Klassen dienen dazu, Konzepte, Objekte oder
+Entitäten innerhalb einer Domäne zu repräsentieren.
+
+00:06:06.620 --> 00:06:14.190
+Sie definieren gemeinsame Merkmale, Eigenschaften
+und Beziehungen für Instanzen dieser Klasse.
+
+00:06:14.190 --> 00:06:20.000
+"Deprecated class" ist eine Markierung in
+OWL, die anzeigt, dass eine Klasse als veraltet
+
+00:06:20.000 --> 00:06:21.430
+oder als nicht mehr empfohlen gilt.
+
+00:06:21.430 --> 00:06:25.320
+Sie wird verwendet, um darauf hinzuweisen,
+dass eine Klasse nicht mehr aktiv verwendet
+
+00:06:25.320 --> 00:06:28.340
+werden sollte oder durch eine andere Klasse
+ersetzt wurde.
+
+00:06:28.340 --> 00:06:34.710
+"Object property" ist eine Eigenschaft in
+OWL, die Beziehungen zwischen Objekten in
+
+00:06:34.710 --> 00:06:36.400
+einer Ontologie beschreibt.
+
+00:06:36.400 --> 00:06:42.060
+Sie definiert, dass die Werte der Eigenschaft
+andere benannte Individuen oder Klassen sind,
+
+00:06:42.060 --> 00:06:44.740
+im Gegensatz zu Datentypen.
+
+00:06:44.740 --> 00:06:50.790
+"Subclass of" ist eine Beziehung in OWL, die
+angibt, dass eine Klasse eine Subklasse, also
+
+00:06:50.790 --> 00:06:53.449
+Unterklasse einer anderen Klasse ist.
+
+00:06:53.449 --> 00:06:58.290
+Eine Subklasse erbt die Eigenschaften und
+Beziehungen der Oberklasse und spezifiziert
+
+00:06:58.290 --> 00:07:03.500
+gleichzeitig zusätzliche Merkmale, die für
+sie gelten.
+
+00:07:03.500 --> 00:07:08.500
+"DisjointWith" ist eine Beziehung in OWL,
+die angibt, dass zwei Klassen keine gemeinsamen
+
+00:07:08.500 --> 00:07:12.509
+Instanzen haben und sich gegenseitig ausschließen.
+
+00:07:12.509 --> 00:07:16.539
+Es wird ausgeschlossen, dass es eine Überlappung
+oder Gemeinsamkeiten zwischen den Klassen
+
+00:07:16.539 --> 00:07:17.539
+gibt.
+
+00:07:17.539 --> 00:07:24.120
+"AllValuesFrom" ist eine Einschränkung in
+OWL, die besagt, dass alle Werte, die mit
+
+00:07:24.120 --> 00:07:28.180
+einer Eigenschaft assoziiert sind, einer bestimmten
+Klasse angehören müssen.
+
+00:07:28.180 --> 00:07:32.490
+Es wird festgelegt, dass nur Instanzen dieser
+Klasse als Werte für diese Eigenschaft erlaubt
+
+00:07:32.490 --> 00:07:34.400
+sind.
+
+00:07:34.400 --> 00:07:39.350
+"SomeValuesFrom" ist eine Einschränkung in
+OWL, die besagt, dass mindestens ein Wert,
+
+00:07:39.350 --> 00:07:43.490
+der mit einer Eigenschaft assoziiert ist,
+einer bestimmten Klasse angehören muss.
+
+00:07:43.490 --> 00:07:48.070
+Es ist nicht erforderlich, dass alle Werte
+der Eigenschaft dieser Klasse angehören,
+
+00:07:48.070 --> 00:07:51.160
+es muss nur mindestens ein Wert dieser Klasse
+vorhanden sein.
+
+00:07:51.160 --> 00:07:58.410
+Unter „Datatype“ finden wir klassische
+Datentypen wie String, Integer oder Double
+
+00:07:58.410 --> 00:08:02.150
+mit deren Hilfe definiert werden kann in welcher
+Form die jeweiligen Klassen vorliegen können.
+
+00:08:02.150 --> 00:08:09.199
+Wir legen als erstes die drei Klassen „Land“,
+„Stadt“ und „Sehenswürdigkeit“ an.
+
+00:08:09.199 --> 00:08:14.319
+Hierzu wählen wir im linken Fenster owl:class
+aus und fügen diese über Doppelklick auf
+
+00:08:14.319 --> 00:08:15.430
+unser Arbeitsfenster hinzu.
+
+00:08:15.430 --> 00:08:18.690
+Wir erstellen insgesamt drei Klassen.
+
+00:08:18.690 --> 00:08:23.600
+Falls wir diese wieder löschen wollen, können
+wir dies über das Rote X tun, welches erscheint,
+
+00:08:23.600 --> 00:08:25.379
+wenn wir über ein Element hovern.
+
+00:08:25.379 --> 00:08:29.990
+Klicken wir eine Klasse an, dann können wir
+diese genauer definieren.
+
+00:08:29.990 --> 00:08:32.789
+Wir vergeben also zunächst passende Bezeichnungen.
+
+00:08:32.789 --> 00:08:36.909
+„Land“, „Stadt“, und „Sehenswürdigkeit“.
+
+00:08:36.909 --> 00:08:45.190
+Über das grüne X können wir Klassen Datentypen
+zuordnen, die wir in der linken Spalte auswählen
+
+00:08:45.190 --> 00:08:46.190
+können.
+
+00:08:46.190 --> 00:08:51.100
+Bei der Klasse „Land“ beispielsweise „String“,
+da wir wissen, dass diese textlich und nicht
+
+00:08:51.100 --> 00:08:52.270
+numerisch erfasst werden.
+
+00:08:52.270 --> 00:09:00.290
+Das Hinzufügen von Datentypen ist optional,
+kann aber einen informativen Mehrwert generieren.
+
+00:09:00.290 --> 00:09:06.510
+Nun ist es an der Zeit, eine erste Beziehung
+zwischen den erstellten Klassen zu definieren.
+
+00:09:06.510 --> 00:09:11.649
+Wir möchten festlegen, dass eine Stadt eine
+Subklasse von einem Land ist.
+
+00:09:11.649 --> 00:09:17.089
+Dazu wählen wir „subClassOf“ aus und
+ziehen mit Hilfe des angedeuteten Pfeils eine
+
+00:09:17.089 --> 00:09:20.399
+Verbindung von der Klasse „Stadt“ zu „Land“.
+
+00:09:20.399 --> 00:09:25.720
+Die beiden Klassen werden nun über eine gestrichelte
+Linie Verbunden, die die Beziehung der beiden
+
+00:09:25.720 --> 00:09:26.720
+beschreibt.
+
+00:09:26.720 --> 00:09:32.470
+Als nächstes erstellen wir drei Klassen,
+die Länder repräsentieren.
+
+00:09:32.470 --> 00:09:37.010
+Ich wähle hier „Deutschland“, „Italien“
+und „England“.
+
+00:09:37.010 --> 00:09:47.820
+Diese Klassen verbinden wir ebenfalls alle
+als Subklasse mit der Klasse „Land“.
+
+00:09:47.820 --> 00:09:58.020
+Außerdem erstellen wir drei Klassen, die
+die Hauptstädte der gewählten Länder darstellen.
+
+00:09:58.020 --> 00:10:00.810
+Also „Berlin“, „Rom“ und „London“.
+
+00:10:00.810 --> 00:10:13.779
+Diese werden zunächst als Subklassen mit
+der Klasse „Stadt“ verbunden.
+
+00:10:13.779 --> 00:10:24.090
+Wir können aber nicht nur sagen, dass Berlin
+eine Stadt ist, sondern wollen ebenfalls festlegen,
+
+00:10:24.090 --> 00:10:27.490
+dass Berlin die Hauptstadt von Deutschland
+ist.
+
+00:10:27.490 --> 00:10:32.180
+Hierzu wählen wir nun ein „objectProperty“
+aus, um die Beziehungen zwischen den Ländern
+
+00:10:32.180 --> 00:10:35.339
+und deren Hauptstädten zu erstellen.
+
+00:10:35.339 --> 00:10:39.769
+Dafür ziehen wir wieder mit Hilfe des Pfeils
+eine Verbindung ausgehend vom jeweiligen Land
+
+00:10:39.769 --> 00:10:40.950
+hin zur passenden Hauptstadt.
+
+00:10:40.950 --> 00:10:45.399
+Ein Durchgezogener Pfeil erscheint mit einem
+Textfeld.
+
+00:10:45.399 --> 00:10:48.899
+In diesem Textfeld können wir nun die Art
+der Beziehung definieren.
+
+00:10:48.899 --> 00:10:52.320
+In unserem Beispiel schreiben wir also „hatHauptstadt“.
+
+00:10:52.320 --> 00:10:58.570
+Als kleine Übung möchte ich dich nun bitten
+das Video kurz zu stoppen und für jede Hauptstadt
+
+00:10:58.570 --> 00:11:01.779
+drei Sehenswürdigkeiten als Klassen anzulegen.
+
+00:11:01.779 --> 00:11:08.639
+Setze diese anschließend logisch mit deinen
+anderen Klassen in Beziehung.
+
+00:11:08.639 --> 00:11:11.139
+Kurz zum Vergleich.
+
+00:11:11.139 --> 00:11:14.589
+Ich habe beispielsweise die Klasse „Big
+Ben“ angelegt.
+
+00:11:14.589 --> 00:11:19.649
+„Big Ben“ ist eine Subklasse von Sehenswürdigkeit
+und steht mit der Klasse „London“ in der
+
+00:11:19.649 --> 00:11:23.880
+Beziehung „hatSehenswürdigkeit“.
+
+00:11:23.880 --> 00:11:29.040
+In diesem Tutorial haben wir das Tool WebVOWL
+kennengelernt, mit dem wir Ontologien anschaulich
+
+00:11:29.040 --> 00:11:30.829
+visualisieren und erkunden können.
+
+00:11:30.829 --> 00:11:34.649
+Wir haben uns beispielhafte Graphen angesehen,
+die uns geholfen haben, die verschiedenen
+
+00:11:34.649 --> 00:11:36.630
+Strukturen einer Ontologie besser zu verstehen.
+
+00:11:36.630 --> 00:11:42.529
+Anschließend haben wir gemeinsam eine eigene
+Ontologie zum Thema Tourismus erstellt.
+
+00:11:42.529 --> 00:11:47.070
+Wir haben Klassen wie "Land", "Stadt" und
+"Sehenswürdigkeit" definiert und ihre Eigenschaften
+
+00:11:47.070 --> 00:11:48.070
+festgelegt.
+
+00:11:48.070 --> 00:11:52.790
+Darüber hinaus haben wir Beziehungen zwischen
+den Konzepten erstellt, um die Verbindungen
+
+00:11:52.790 --> 00:11:55.380
+zwischen Ländern, Städten und Sehenswürdigkeiten
+darzustellen.
+
+00:11:55.380 --> 00:12:00.589
+Ich hoffe, dass dieses Tutorial dir dabei
+geholfen hat, einen Einblick in die Welt der
+
+00:12:00.589 --> 00:12:04.410
+Ontologien zu gewinnen und die Funktionalitäten
+von WebVOWL zu verstehen.
+
+00:12:04.410 --> 00:12:09.480
+Nutze dieses Wissen, um eigene Ontologien
+zu erstellen und zu erkunden.
+
+00:12:09.480 --> 00:12:10.930
+Viel Spaß beim Experimentieren.
