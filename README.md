@@ -30,7 +30,7 @@ Wenn du dir zunächst einen schnellen Überblick über die konkreten Inhalte des
 
 Sie dürfen den Inhalt des Tutorials unter den Bedingungen der [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.de) Lizenz frei verwenden, verändern und weitergeben, sofern nicht ausdrücklich etwas anderes für bestimmte Teile des Inhalts angegeben ist. Alle verwendeten Logos sind generell ausgenommen. 
 
-Jeglicher Code, der mit dem Tutorial zur Verfügung gestellt wird, kann unter den Bedingungen der MIT-Lizenz verwendet werden. Bitte lesen Sie die vollständigen Lizenzbedingungen: https://github.com/oer4sdi/OER-DCAT/blob/main/LICENSE.md.
+Jeglicher Code, der mit dem Tutorial zur Verfügung gestellt wird, kann unter den Bedingungen der MIT-Lizenz verwendet werden. Bitte lesen Sie die vollständigen Lizenzbedingungen: https://github.com/oer4sdi/OER-KnowledgeGraph/blob/main/LICENSE.md.
 
 Das Tutorial kann wie folgt referenziert werden: „OER-KnowledgeGraph“, OER4SDI Projekt / Hochschule Bochum,[ CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode.en).
 
