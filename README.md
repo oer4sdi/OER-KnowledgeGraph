@@ -32,7 +32,7 @@ Sie dürfen den Inhalt des Tutorials unter den Bedingungen der [CC-BY-SA 4.0](ht
 
 Jeglicher Code, der mit dem Tutorial zur Verfügung gestellt wird, kann unter den Bedingungen der MIT-Lizenz verwendet werden. Bitte lesen Sie die vollständigen Lizenzbedingungen: https://github.com/oer4sdi/OER-DCAT/blob/main/LICENSE.md.
 
-Das Tutorial kann wie folgt referenziert werden: „OER-EinfuehrungGeoinformatik“, OER4SDI Projekt / Hochschule Bochum,[ CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode.en).
+Das Tutorial kann wie folgt referenziert werden: „OER-KnowledgeGraph“, OER4SDI Projekt / Hochschule Bochum,[ CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode.en).
 
 
 ### Autoren und Finanzierung
